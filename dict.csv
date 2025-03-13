@@ -1,9 +1,9 @@
 id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,element_damage,element_hidden
-1,,1,sever,Buster Sword 1,384,80,,0,
-2,,1,sever,Buster Sword 2,432,90,,0,
-3,,2,sever,Buster Sword 3,480,100,,0,
-4,,3,sever,Buster Blade 1,576,120,,0,
-5,,4,sever,Buster Blade 2,624,130,,0,
+1,,1,sever,Buster Sword 1,384,80,,0,False
+2,,1,sever,Buster Sword 2,432,90,,0,False
+3,,2,sever,Buster Sword 3,480,100,,0,False
+4,,3,sever,Buster Blade 1,576,120,,0,False
+5,,4,sever,Buster Blade 2,624,130,,0,False
 6,,5,sever,Buster Blade 3,672,140,poison,240,True
 7,,6,sever,Chrome Razor 1,720,150,poison,330,True
 8,,6,sever,Chrome Razor 2,864,180,poison,420,True
@@ -18,9 +18,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 17,,5,sever,Freeze Blade 2,624,130,ice,270,False
 18,,6,sever,Frost Blaze 1,720,150,ice,330,False
 19,,6,sever,Frost Blaze 2,768,160,ice,390,False
-20,,2,sever,Jagras Blade 1,528,110,,0,
-21,,3,sever,Jagras Blade 2,576,120,,0,
-22,,4,sever,Jagras Blade 3,672,140,,0,
+20,,2,sever,Jagras Blade 1,528,110,,0,False
+21,,3,sever,Jagras Blade 2,576,120,,0,False
+22,,4,sever,Jagras Blade 3,672,140,,0,False
 23,,5,sever,Jagras Hacker 1,816,170,water,210,True
 24,,6,sever,Jagras Hacker 2,864,180,water,240,True
 25,,6,sever,Jagras Hacker 3,912,190,water,300,True
@@ -42,11 +42,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 41,,6,sever,Red Wing,768,160,fire,180,False
 42,,7,sever,Blue Wing,816,170,fire,210,False
 43,,8,sever,Rathalos Glinsword,912,190,fire,240,False
-44,,1,sever,Bone Blade 1,480,100,,0,
-45,,1,sever,Bone Blade 2,528,110,,0,
-46,,2,sever,Bone Blade 3,576,120,,0,
-47,,3,sever,Bone Slasher 1,672,140,,0,
-48,,4,sever,Bone Slasher 2,720,150,,0,
+44,,1,sever,Bone Blade 1,480,100,,0,False
+45,,1,sever,Bone Blade 2,528,110,,0,False
+46,,2,sever,Bone Blade 3,576,120,,0,False
+47,,3,sever,Bone Slasher 1,672,140,,0,False
+48,,4,sever,Bone Slasher 2,720,150,,0,False
 49,,5,sever,Bone Slasher 3,768,160,ice,180,True
 50,,6,sever,Giant Jawblade 1,816,170,ice,240,True
 51,,6,sever,Giant Jawblade 2,912,190,ice,300,True
@@ -61,9 +61,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 60,,5,sever,Water Golem 1,768,160,water,240,False
 61,,6,sever,Water Golem 2,816,170,water,270,False
 62,,6,sever,Water Golem 3,912,190,water,300,False
-63,,2,sever,Carapace Buster 1,624,130,,0,
-64,,3,sever,Carapace Buster 2,672,140,,0,
-65,,4,sever,Carapace Buster 3,720,150,,0,
+63,,2,sever,Carapace Buster 1,624,130,,0,False
+64,,3,sever,Carapace Buster 2,672,140,,0,False
+65,,4,sever,Carapace Buster 3,720,150,,0,False
 66,,5,sever,Barroth Shredder 1,816,170,paralysis,270,True
 67,,6,sever,Barroth Shredder 2,864,180,paralysis,330,True
 68,,6,sever,Barroth Shredder 3,960,200,paralysis,390,True
@@ -87,24 +87,24 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 86,low,8,sever,Xeno Maliq,816,170,dragon,210,False
 87,,6,sever,Wyvern Jawblade,864,180,blast,240,True
 88,,8,sever,Great Wyvern Jawblade,960,200,blast,330,True
-89,,1,sever,Iron Katana 1,264,80,,0,
-90,,1,sever,Iron Katana 2,297,90,,0,
-91,,2,sever,Iron Katana 3,330,100,,0,
-92,,3,sever,Iron Grace 1,363,110,,0,
-93,,4,sever,Iron Grace 2,429,130,,0,
+89,,1,sever,Iron Katana 1,264,80,,0,False
+90,,1,sever,Iron Katana 2,297,90,,0,False
+91,,2,sever,Iron Katana 3,330,100,,0,False
+92,,3,sever,Iron Grace 1,363,110,,0,False
+93,,4,sever,Iron Grace 2,429,130,,0,False
 94,,5,sever,Iron Grace 3,462,140,water,120,True
 95,,6,sever,Iron Gospel 1,528,160,water,150,True
 96,,6,sever,Iron Gospel 2,594,180,water,180,True
 97,high,7,sever,Nergal Reaver,627,190,dragon,90,False
 98,high,8,sever,Extermination's Edge,693,210,dragon,120,False
-99,,3,sever,Flickering Glow 1,429,130,,0,
-100,,4,,Flickering Glow 2,462,140,,0,
+99,,3,sever,Flickering Glow 1,429,130,,0,False
+100,,4,,Flickering Glow 2,462,140,,0,False
 101,,5,sever,Dazzling Flash 1,528,160,thunder,240,True
 102,,6,sever,Dazzling Flash 2,561,170,thunder,300,True
 103,,6,sever,Dazzling Flash 3,594,180,thunder,360,True
-104,,2,sever,First Dance 1,330,100,,0,
-105,,3,sever,First Dance 2,363,110,,0,
-106,,4,sever,First Dance 3,429,130,,0,
+104,,2,sever,First Dance 1,330,100,,0,False
+105,,3,sever,First Dance 2,363,110,,0,False
+106,,4,sever,First Dance 3,429,130,,0,False
 107,,5,sever,Last Dance 1,495,150,sleep,210,True
 108,,6,sever,Last Dance 2,528,160,sleep,240,True
 109,,6,sever,Last Dance 3,561,170,sleep,270,True
@@ -117,11 +117,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 116,,6,sever,"Wyvern Blade ""Blood""",528,160,fire,180,False
 117,,7,sever,"Wyvern Blade ""Azure""",561,170,fire,210,False
 118,,8,sever,"Wyvern Blade ""Indigo""",627,190,fire,240,False
-119,,1,sever,Bone Shotel 1,297,90,,0,
-120,,1,sever,Bone Shotel 2,330,100,,0,
-121,,2,sever,Bone Shotel 3,396,120,,0,
-122,,3,sever,Hard Bone Shotel 1,429,130,,0,
-123,,4,sever,Hard Bone Shotel 2,495,150,,0,
+119,,1,sever,Bone Shotel 1,297,90,,0,False
+120,,1,sever,Bone Shotel 2,330,100,,0,False
+121,,2,sever,Bone Shotel 3,396,120,,0,False
+122,,3,sever,Hard Bone Shotel 1,429,130,,0,False
+123,,4,sever,Hard Bone Shotel 2,495,150,,0,False
 124,,5,sever,Hard Bone Shotel 3,528,160,sleep,210,True
 125,,6,sever,Bone Reaper 1,627,190,sleep,270,True
 126,,6,,Bone Reaper 2,627,190,sleep,270,True
@@ -150,8 +150,8 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 149,,5,sever,Glacial Shotel 2,462,140,ice,240,False
 150,,6,sever,Stealer,495,150,ice,300,False
 151,,8,sever,Legia Stealer,528,160,ice,360,False
-152,,3,sever,Dark Shotel 1,396,120,,0,
-153,,4,sever,Dark Shotel 2,429,130,,0,
+152,,3,sever,Dark Shotel 1,396,120,,0,False
+153,,4,sever,Dark Shotel 2,429,130,,0,False
 154,,5,sever,Dark Scimitar 1,462,140,paralysis,180,True
 155,,6,sever,Dark Scimitar 2,495,150,paralysis,210,True
 156,,6,sever,Dark Scimitar 3,528,160,paralysis,240,True
@@ -168,11 +168,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 167,high,6,sever,Supremacy Blade,561,170,dragon,120,True
 168,high,8,sever,Divine Slasher,693,210,dragon,150,True
 169,,3,sever,Azure Star Blade,363,110,water,120,False
-170,,1,sever,Hunter's Knife 1,112,80,,0,
-171,,1,sever,Hunter's Knife 2,126,90,,0,
-172,,2,sever,Hunter's Knife 3,140,100,,0,
-173,,3,sever,Steel Knife 1,168,120,,0,
-174,,4,sever,Steel Knife 2,182,130,,0,
+170,,1,sever,Hunter's Knife 1,112,80,,0,False
+171,,1,sever,Hunter's Knife 2,126,90,,0,False
+172,,2,sever,Hunter's Knife 3,140,100,,0,False
+173,,3,sever,Steel Knife 1,168,120,,0,False
+174,,4,sever,Steel Knife 2,182,130,,0,False
 175,,5,sever,Steel Knife 3,196,140,sleep,120,True
 176,,6,sever,Chrome Slicer 1,224,160,sleep,150,True
 177,,6,sever,Chrome Slicer 2,252,180,sleep,240,True
@@ -182,7 +182,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 181,,5,sever,Flame Knife 2,196,140,fire,120,False
 182,,6,sever,Heat Edge,224,160,fire,150,False
 183,,7,sever,Corona,266,190,fire,180,False
-184,,4,sever,Heavy Bang,210,150,,0,
+184,,4,sever,Heavy Bang,210,150,,0,False
 185,,6,sever,Heavy Bang+,252,180,thunder,270,True
 186,,7,sever,Master Bang,280,200,thunder,330,True
 187,,2,sever,Aqua Messer 1,140,100,water,90,False
@@ -199,8 +199,8 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 198,,5,sever,Queen Rapier,210,150,poison,180,False
 199,,6,sever,Queen Rose,238,170,poison,210,False
 200,,7,sever,Royal Rose,266,190,poison,240,False
-201,,3,sever,Lumu Knife 1,168,120,,0,
-202,,4,sever,Lumu Knife 2,182,130,,0,
+201,,3,sever,Lumu Knife 1,168,120,,0,False
+202,,4,sever,Lumu Knife 2,182,130,,0,False
 203,,5,sever,Lumu Tabar 1,210,150,blast,270,True
 204,,6,sever,Lumu Tabar 2,224,160,blast,300,True
 205,,6,sever,Lumu Tabar 3,238,170,blast,330,True
@@ -215,11 +215,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 214,,5,sever,Malady's Tabar 1,196,140,paralysis,180,False
 215,,6,sever,Malady's Tabar 2,210,150,paralysis,210,False
 216,,6,sever,Malady's Tabar 3,224,160,paralysis,240,False
-217,,1,sever,Bone Kukri 1,140,100,,0,
-218,,1,sever,Bone Kukri 2,154,110,,0,
-219,,2,sever,Bone Kukri 3,168,120,,0,
-220,,3,sever,Chief Kukri 1,196,140,,0,
-221,,4,sever,Chief Kukri 2,210,150,,0,
+217,,1,sever,Bone Kukri 1,140,100,,0,False
+218,,1,sever,Bone Kukri 2,154,110,,0,False
+219,,2,sever,Bone Kukri 3,168,120,,0,False
+220,,3,sever,Chief Kukri 1,196,140,,0,False
+221,,4,sever,Chief Kukri 2,210,150,,0,False
 222,,5,sever,Chief Kukri 3,224,160,paralysis,180,True
 223,,6,sever,Grand Barong 1,238,170,paralysis,240,True
 224,,6,sever,Grand Barong 2,266,190,paralysis,300,True
@@ -228,9 +228,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 227,,5,sever,Baan Claw 1,238,170,sleep,150,False
 228,,6,sever,Baan Claw 2,252,180,sleep,180,False
 229,,6,sever,Baan Claw 3,266,190,sleep,210,False
-230,,2,sever,Jagras Edge 1,168,120,,0,
-231,,3,sever,Jagras Edge 2,196,140,,0,
-232,,4,sever,Jagras Edge 3,210,150,,0,
+230,,2,sever,Jagras Edge 1,168,120,,0,False
+231,,3,sever,Jagras Edge 2,196,140,,0,False
+232,,4,sever,Jagras Edge 3,210,150,,0,False
 233,,5,sever,Jagras Garotte 1,238,170,water,300,True
 234,,6,sever,Jagras Garotte 2,252,180,water,330,True
 235,,6,sever,Jagras Garotte 3,266,190,water,360,True
@@ -239,9 +239,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 238,,5,sever,Lightning Nemesis 1,224,160,thunder,150,False
 239,,6,sever,Lightning Nemesis 2,252,180,thunder,180,False
 240,,6,sever,Lightning Nemesis 3,266,190,thunder,210,False
-241,,2,sever,Carapace Edge 1,182,130,,0,
-242,,3,sever,Carapace Edge 2,196,140,,0,
-243,,4,sever,Carapace Edge 3,224,160,,0,
+241,,2,sever,Carapace Edge 1,182,130,,0,False
+242,,3,sever,Carapace Edge 2,196,140,,0,False
+243,,4,sever,Carapace Edge 3,224,160,,0,False
 244,,5,sever,Barroth Club 1,252,180,paralysis,120,True
 245,,6,sever,Barroth Club 2,266,190,paralysis,150,True
 246,,6,sever,Barroth Club 3,294,210,paralysis,180,True
@@ -260,18 +260,18 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 259,,7,sever,Teostra's Spada,252,180,blast,210,False
 260,,8,sever,Teostra's Emblem,266,190,blast,240,False
 261,low,8,sever,Xeno Mabura,238,170,dragon,270,False
-262,,1,sever,Matched Slicers 1,112,80,,0,
-263,,1,sever,Matched Slicers 2,126,90,,0,
-264,,2,sever,Matched Slicers 3,140,100,,0,
-265,,3,sever,Dual Slicers 1,154,110,,0,
+262,,1,sever,Matched Slicers 1,112,80,,0,False
+263,,1,sever,Matched Slicers 2,126,90,,0,False
+264,,2,sever,Matched Slicers 3,140,100,,0,False
+265,,3,sever,Dual Slicers 1,154,110,,0,False
 266,,5,sever,Dual Slicers 2,196,140,poison,210,True
 267,,5,,Dual Slicers 3,196,140,poison,210,True
 268,,6,sever,Chrome Slicers 1,224,160,poison,240,True
 269,,6,sever,Chrome Slicers 2,252,180,poison,270,True
 270,high,7,sever,Nergal Gouge,280,200,dragon,90,False
 271,high,8,sever,Decimation Claws,294,210,dragon,120,False
-272,,3,sever,Luminous Daggers 1,168,120,,0,
-273,,4,sever,Luminous Daggers 2,196,140,,0,
+272,,3,sever,Luminous Daggers 1,168,120,,0,False
+273,,4,sever,Luminous Daggers 2,196,140,,0,False
 274,,5,sever,Dual Destroyers 1,224,160,thunder,120,True
 275,,6,sever,Dual Destroyers 2,238,170,thunder,150,True
 276,,6,sever,Dual Destroyers 3,252,180,thunder,210,True
@@ -281,20 +281,20 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 280,,5,sever,Freeze Daggers 2,210,150,ice,90,False
 281,,6,sever,Freeze Chain 1,238,170,ice,120,False
 282,,6,sever,Freeze Chain 2,252,180,ice,150,False
-283,,2,sever,Rending Beaks 1,154,110,,0,
-284,,3,sever,Rending Beaks 2,168,120,,0,
-285,,4,sever,Rending Beaks 3,182,130,,0,
+283,,2,sever,Rending Beaks 1,154,110,,0,False
+284,,3,sever,Rending Beaks 2,168,120,,0,False
+285,,4,sever,Rending Beaks 3,182,130,,0,False
 286,,5,sever,Arcanaria 1,210,150,sleep,90,True
 287,,6,sever,Arcanaria 2,224,160,sleep,90,True
 288,,6,sever,Arcanaria 3,238,170,sleep,120,True
 289,,3,sever,Sworn Rapiers,182,130,water,90,False
 290,,5,sever,Sworn Rapiers+,210,150,water,90,False
 291,,7,sever,Holy Sabers,252,180,water,120,False
-292,,1,sever,Bone Hatchets 1,140,100,,0,
-293,,1,sever,Bone Hatchets 2,154,110,,0,
-294,,2,sever,Bone Hatchets 3,168,120,,0,
-295,,3,sever,Wild Hatchets 1,196,140,,0,
-296,,4,sever,Wild Hatchets 2,210,150,,0,
+292,,1,sever,Bone Hatchets 1,140,100,,0,False
+293,,1,sever,Bone Hatchets 2,154,110,,0,False
+294,,2,sever,Bone Hatchets 3,168,120,,0,False
+295,,3,sever,Wild Hatchets 1,196,140,,0,False
+296,,4,sever,Wild Hatchets 2,210,150,,0,False
 297,,5,sever,Wild Hatchets 3,224,160,blast,120,True
 298,,6,sever,Strong Hatchets 1,238,170,blast,150,True
 299,,6,sever,Strong Hatchets 2,266,190,blast,180,True
@@ -303,7 +303,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 302,,5,sever,Anja Cyclone 1,238,170,fire,150,False
 303,,6,sever,Anja Cyclone 2,266,190,fire,180,False
 304,,7,sever,Anja Cyclone 3,294,210,fire,210,False
-305,,4,sever,Diablos Hatchets 1,224,160,,0,
+305,,4,sever,Diablos Hatchets 1,224,160,,0,False
 306,,5,sever,Diablos Hatchets 2,266,190,ice,90,True
 307,,6,sever,Diablos Clubs 1,294,210,ice,90,True
 308,,7,sever,Diablos Clubs 2,322,230,ice,90,True
@@ -315,8 +315,8 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 314,,6,sever,Jyura Hatchets 3,266,190,water,210,False
 315,,6,sever,Lava Cyclone 1,252,180,fire,120,False
 316,,7,sever,Lava Cyclone 2,252,180,fire,150,False
-317,,3,sever,Taurus Pangas 1,168,120,,0,
-318,,4,sever,Taurus Pangas 2,182,130,,0,
+317,,3,sever,Taurus Pangas 1,168,120,,0,False
+318,,4,sever,Taurus Pangas 2,182,130,,0,False
 319,,5,sever,Dark Ripper 1,196,140,paralysis,90,True
 320,,6,sever,Dark Ripper 2,210,150,paralysis,90,True
 321,,6,sever,Dark Ripper 3,224,160,paralysis,90,True
@@ -326,7 +326,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 325,,5,sever,Kadachi Claws 1,224,160,thunder,90,False
 326,,6,sever,Kadachi Claws 2,238,170,thunder,120,False
 327,,6,,Kadachi Claws 3,252,180,thunder,150,False
-328,,4,sever,Garon Hatchets 1,182,130,,0,
+328,,4,sever,Garon Hatchets 1,182,130,,0,False
 329,,5,sever,Garon Hatchets 2,196,140,fire,180,True
 330,,6,sever,Blood-drinker Chainblade,210,150,fire,180,True
 331,,8,sever,Sin,224,160,fire,180,True
@@ -344,11 +344,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 343,,8,sever,Fire and Ice,252,180,ice,240,False
 344,low,8,sever,Xeno Raqs,238,170,blast,240,False
 345,,1,blunt,Iron Hammer 1,416,80,dragon,150,False
-346,,1,blunt,Iron Hammer 2,468,90,,0,
-347,,2,blunt,Iron Hammer 3,520,100,,0,
-348,,3,blunt,Iron Demon 1,572,110,,0,
-349,,4,blunt,Iron Demon 2,676,130,,0,
-350,,5,blunt,Iron Demon 3,728,140,,0,
+346,,1,blunt,Iron Hammer 2,468,90,,0,False
+347,,2,blunt,Iron Hammer 3,520,100,,0,False
+348,,3,blunt,Iron Demon 1,572,110,,0,False
+349,,4,blunt,Iron Demon 2,676,130,,0,False
+350,,5,blunt,Iron Demon 3,728,140,,0,False
 351,,6,blunt,Iron Archdemon 1,832,160,blast,210,True
 352,,6,blunt,Iron Archdemon 2,936,180,blast,240,True
 353,high,7,blunt,Nergal Crusher,1040,200,blast,270,True
@@ -378,11 +378,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 377,,6,blunt,Lightning Bash 2,884,170,thunder,240,False
 378,,6,blunt,Lightning Bash 3,988,190,thunder,270,False
 379,,1,blunt,Bone Bludgeon 1,520,100,thunder,300,False
-380,,1,blunt,Bone Bludgeon 2,572,110,,0,
-381,,2,blunt,Bone Bludgeon 3,624,120,,0,
-382,,3,blunt,Fossil Bludgeon 1,728,140,,0,
-383,,4,blunt,Fossil Bludgeon 2,780,150,,0,
-384,,5,blunt,Fossil Bludgeon 3,832,160,,0,
+380,,1,blunt,Bone Bludgeon 2,572,110,,0,False
+381,,2,blunt,Bone Bludgeon 3,624,120,,0,False
+382,,3,blunt,Fossil Bludgeon 1,728,140,,0,False
+383,,4,blunt,Fossil Bludgeon 2,780,150,,0,False
+384,,5,blunt,Fossil Bludgeon 3,832,160,,0,False
 385,,6,blunt,Grandrock 1,884,170,thunder,360,True
 386,,6,blunt,Grandrock 2,988,190,thunder,390,True
 387,average,7,blunt,Hazak Vlafos,988,190,thunder,420,True
@@ -395,19 +395,19 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 394,,6,blunt,Brazenbreak 1,988,190,sleep,270,False
 395,,7,blunt,Brazenbreak 2,1092,210,fire,120,False
 396,,2,blunt,Kulu Beak 1,624,120,fire,120,False
-397,,3,blunt,Kulu Beak 2,676,130,,0,
-398,,4,blunt,Kulu Beak 3,728,140,,0,
-399,,5,blunt,Crushing Beak 1,780,150,,0,
+397,,3,blunt,Kulu Beak 2,676,130,,0,False
+398,,4,blunt,Kulu Beak 3,728,140,,0,False
+399,,5,blunt,Crushing Beak 1,780,150,,0,False
 400,,6,blunt,Crushing Beak 2,832,160,sleep,240,True
 401,,6,blunt,Crushing Beak 3,884,170,sleep,300,True
 402,,4,blunt,Diablos Sledge 1,884,170,sleep,360,True
-403,,5,blunt,Diablos Sledge 2,988,190,,0,
+403,,5,blunt,Diablos Sledge 2,988,190,,0,False
 404,,6,blunt,Diablos Shatterer 1,1092,210,ice,150,True
 405,,7,blunt,Diablos Shatterer 2,1196,230,ice,150,True
 406,,2,blunt,Carapace Sledge 1,676,130,ice,150,True
-407,,3,blunt,Carapace Sledge 2,728,140,,0,
-408,,4,blunt,Carapace Sledge 3,832,160,,0,
-409,,5,blunt,Barroth Breaker 1,936,180,,0,
+407,,3,blunt,Carapace Sledge 2,728,140,,0,False
+408,,4,blunt,Carapace Sledge 3,832,160,,0,False
+409,,5,blunt,Barroth Breaker 1,936,180,,0,False
 410,,6,blunt,Barroth Breaker 2,988,190,paralysis,270,True
 411,,6,blunt,Barroth Breaker 3,1040,200,paralysis,330,True
 412,,3,blunt,Blazing Hammer 1,780,150,paralysis,390,True
@@ -428,11 +428,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 427,,6,blunt,Jail Hammer,832,160,dragon,180,False
 428,,8,blunt,Binder Mace,936,180,paralysis,180,False
 429,,1,blunt,Metal Bagpipe 1,336,80,paralysis,210,False
-430,,1,blunt,Metal Bagpipe 2,378,90,,0,
-431,,2,blunt,Metal Bagpipe 3,420,100,,0,
-432,,3,blunt,Great Bagpipe 1,462,110,,0,
-433,,4,blunt,Great Bagpipe 2,546,130,,0,
-434,,5,blunt,Great Bagpipe 3,588,140,,0,
+430,,1,blunt,Metal Bagpipe 2,378,90,,0,False
+431,,2,blunt,Metal Bagpipe 3,420,100,,0,False
+432,,3,blunt,Great Bagpipe 1,462,110,,0,False
+433,,4,blunt,Great Bagpipe 2,546,130,,0,False
+434,,5,blunt,Great Bagpipe 3,588,140,,0,False
 435,,6,blunt,Fortissimo 1,672,160,paralysis,210,True
 436,,6,blunt,Fortissimo 2,756,180,paralysis,240,True
 437,high,7,blunt,Nergal Groove,840,200,paralysis,270,True
@@ -443,9 +443,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 442,,6,blunt,Lightning Drum 2,714,170,thunder,180,False
 443,,6,blunt,Lightning Drum 3,756,180,thunder,210,False
 444,,2,blunt,Kulu Duda 1,420,100,thunder,240,False
-445,,3,blunt,Kulu Duda 2,504,120,,0,
-446,,4,blunt,Kulu Duda 3,588,140,,0,
-447,,5,blunt,Dancing Davul 1,630,150,,0,
+445,,3,blunt,Kulu Duda 2,504,120,,0,False
+446,,4,blunt,Kulu Duda 3,588,140,,0,False
+447,,5,blunt,Dancing Davul 1,630,150,,0,False
 448,,6,blunt,Dancing Davul 2,672,160,sleep,240,True
 449,,6,blunt,Dancing Davul 3,714,170,sleep,300,True
 450,,3,blunt,Valkyrie Chordmaker,462,110,sleep,360,True
@@ -463,10 +463,10 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 462,,6,blunt,Sectored,630,150,ice,300,False
 463,,7,blunt,Legia Sectored,672,160,ice,330,False
 464,,1,blunt,Bone Horn 1,420,100,ice,360,False
-465,,1,blunt,Bone Horn 2,462,110,,0,
-466,,2,blunt,Bone Horn 3,504,120,,0,
-467,,3,blunt,Hard Bone Horn 1,588,140,,0,
-468,,5,blunt,Hard Bone Horn 2,672,160,,0,
+465,,1,blunt,Bone Horn 2,462,110,,0,False
+466,,2,blunt,Bone Horn 3,504,120,,0,False
+467,,3,blunt,Hard Bone Horn 1,588,140,,0,False
+468,,5,blunt,Hard Bone Horn 2,672,160,,0,False
 469,,5,,Hard Bone Horn 3,672,160,ice,180,True
 470,,6,blunt,Heavy Bone Horn 1,714,170,ice,180,True
 471,,6,blunt,Heavy Bone Horn 2,798,190,ice,210,True
@@ -484,8 +484,8 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 483,,6,blunt,Datura Horn 2,672,160,poison,420,False
 484,,6,blunt,Datura Horn 3,714,170,poison,480,False
 485,,3,blunt,Lumu Horn 1,546,130,poison,540,False
-486,,4,blunt,Lumu Horn 2,588,140,,0,
-487,,5,blunt,Lumu Barone 1,630,150,,0,
+486,,4,blunt,Lumu Horn 2,588,140,,0,False
+487,,5,blunt,Lumu Barone 1,630,150,,0,False
 488,,6,blunt,Lumu Barone 2,672,160,water,420,True
 489,,6,blunt,Lumu Barone 3,714,170,water,480,True
 490,,6,blunt,Rookslayer Drum,756,180,water,570,True
@@ -513,11 +513,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 512,,8,blunt,Teostra's Orph�e,798,190,blast,330,False
 513,low,8,blunt,Xeno Manasheena,714,170,blast,390,False
 514,,1,sever,Iron Lance 1,184,80,dragon,180,False
-515,,1,sever,Iron Lance 2,207,90,,0,
-516,,2,sever,Iron Lance 3,230,100,,0,
-517,,3,sever,Steel Lance 1,253,110,,0,
-518,,4,sever,Steel Lance 2,299,130,,0,
-519,,5,sever,Steel Lance 3,322,140,,0,
+515,,1,sever,Iron Lance 2,207,90,,0,False
+516,,2,sever,Iron Lance 3,230,100,,0,False
+517,,3,sever,Steel Lance 1,253,110,,0,False
+518,,4,sever,Steel Lance 2,299,130,,0,False
+519,,5,sever,Steel Lance 3,322,140,,0,False
 520,,6,sever,Chrome Lance 1,368,160,paralysis,210,True
 521,,6,sever,Chrome Lance 2,414,180,paralysis,240,True
 522,high,7,sever,Nergal Impaler,460,200,paralysis,270,True
@@ -527,9 +527,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 526,,6,sever,Legiana Halberd 1,345,150,ice,300,False
 527,,7,sever,Legiana Halberd 2,368,160,ice,330,False
 528,,2,sever,Kulu Lance 1,253,110,ice,360,False
-529,,3,sever,Kulu Lance 2,276,120,,0,
-530,,4,sever,Kulu Lance 3,299,130,,0,
-531,,5,sever,Kulu Hasta 1,345,150,,0,
+529,,3,sever,Kulu Lance 2,276,120,,0,False
+530,,4,sever,Kulu Lance 3,299,130,,0,False
+531,,5,sever,Kulu Hasta 1,345,150,,0,False
 532,,6,sever,Kulu Hasta 2,368,160,sleep,330,True
 533,,6,sever,Kulu Hasta 3,391,170,sleep,330,True
 534,,6,sever,Gama Pilebunker 1,368,160,sleep,360,True
@@ -551,28 +551,28 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 550,,7,sever,Blue Tail,414,180,fire,240,False
 551,,8,sever,Blue Prominence,437,190,fire,270,False
 552,,1,sever,Bone Lance 1,207,90,fire,300,False
-553,,2,sever,Bone Lance 2,253,110,,0,
-554,,2,,Bone Lance 3,253,110,,0,
-555,,3,sever,Hard Bone Lance 1,322,140,,0,
-556,,4,sever,Hard Bone Lance 2,345,150,,0,
-557,,5,sever,Hard Bone Lance 3,368,160,,0,
+553,,2,sever,Bone Lance 2,253,110,,0,False
+554,,2,,Bone Lance 3,253,110,,0,False
+555,,3,sever,Hard Bone Lance 1,322,140,,0,False
+556,,4,sever,Hard Bone Lance 2,345,150,,0,False
+557,,5,sever,Hard Bone Lance 3,368,160,,0,False
 558,,6,sever,Heavy Bone Lance 1,391,170,poison,180,True
 559,,6,sever,Heavy Bone Lance 2,437,190,poison,210,True
 560,average,7,sever,Hazak W�chter,437,190,poison,240,True
 561,average,8,sever,Love's Sorrow,460,200,dragon,240,False
 562,,3,sever,Taurus Lance 1,276,120,dragon,270,False
-563,,4,sever,Taurus Lance 2,299,130,,0,
-564,,5,sever,Dark Stinger 1,322,140,,0,
+563,,4,sever,Taurus Lance 2,299,130,,0,False
+564,,5,sever,Dark Stinger 1,322,140,,0,False
 565,,6,sever,Dark Stinger 2,345,150,blast,180,True
 566,,6,sever,Dark Stinger 3,368,160,blast,210,True
 567,,2,sever,Carapace Lance 1,253,110,blast,240,True
-568,,3,sever,Carapace Lance 2,276,120,,0,
-569,,4,sever,Carapace Lance 3,345,150,,0,
-570,,5,sever,Barroth Stinger 1,391,170,,0,
+568,,3,sever,Carapace Lance 2,276,120,,0,False
+569,,4,sever,Carapace Lance 3,345,150,,0,False
+570,,5,sever,Barroth Stinger 1,391,170,,0,False
 571,,6,sever,Barroth Stinger 2,437,190,paralysis,300,True
 572,,6,sever,Barroth Stinger 3,460,200,paralysis,330,True
 573,,4,sever,Garon Lance 1,299,130,paralysis,360,True
-574,,5,sever,Garon Lance 2,322,140,,0,
+574,,5,sever,Garon Lance 2,322,140,,0,False
 575,,6,sever,Garon Dhara 1,345,150,fire,150,True
 576,,7,sever,Garon Dhara 2,391,170,fire,180,True
 577,,2,sever,Aqua Horn 1,253,110,fire,210,True
@@ -597,11 +597,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 596,,6,sever,Babel Spear,414,180,dragon,180,False
 597,,8,sever,Elder Babel Spear,460,200,fire,270,True
 598,,1,sever,Iron Gunlance 1,184,80,fire,330,True
-599,,1,sever,Iron Gunlance 2,207,90,,0,
-600,,2,sever,Iron Gunlance 3,230,100,,0,
-601,,3,sever,Steel Gunlance 1,253,110,,0,
-602,,4,sever,Steel Gunlance 2,299,130,,0,
-603,,5,sever,Steel Gunlance 3,322,140,,0,
+599,,1,sever,Iron Gunlance 2,207,90,,0,False
+600,,2,sever,Iron Gunlance 3,230,100,,0,False
+601,,3,sever,Steel Gunlance 1,253,110,,0,False
+602,,4,sever,Steel Gunlance 2,299,130,,0,False
+603,,5,sever,Steel Gunlance 3,322,140,,0,False
 604,,6,sever,Chrome Gunlance 1,368,160,blast,210,True
 605,,6,sever,Chrome Gunlance 2,414,180,blast,240,True
 606,high,7,sever,Nergal Ram,460,200,blast,270,True
@@ -632,19 +632,19 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 631,,6,sever,Legiana Cannon 1,345,150,ice,240,False
 632,,7,sever,Legiana Cannon 2,368,160,ice,300,False
 633,,1,sever,Bone Gunlance 1,207,90,ice,360,False
-634,,1,sever,Bone Gunlance 2,230,100,,0,
-635,,2,sever,Bone Gunlance 3,253,110,,0,
-636,,3,sever,Bone Cannon 1,276,120,,0,
-637,,4,sever,Bone Cannon 2,322,140,,0,
-638,,5,sever,Bone Cannon 3,368,160,,0,
+634,,1,sever,Bone Gunlance 2,230,100,,0,False
+635,,2,sever,Bone Gunlance 3,253,110,,0,False
+636,,3,sever,Bone Cannon 1,276,120,,0,False
+637,,4,sever,Bone Cannon 2,322,140,,0,False
+638,,5,sever,Bone Cannon 3,368,160,,0,False
 639,,6,sever,Great Bone Gunlance 1,391,170,thunder,210,True
 640,,6,sever,Great Bone Gunlance 2,437,190,thunder,240,True
 641,,6,sever,Bazel Buster 1,437,190,thunder,270,True
 642,,7,sever,Bazel Buster 2,460,200,blast,180,False
 643,,2,sever,Jagras Gunlance 1,253,110,blast,210,False
-644,,3,sever,Jagras Gunlance 2,276,120,,0,
-645,,4,sever,Jagras Gunlance 3,322,140,,0,
-646,,5,sever,Glutton Gunlance 1,345,150,,0,
+644,,3,sever,Jagras Gunlance 2,276,120,,0,False
+645,,4,sever,Jagras Gunlance 3,322,140,,0,False
+646,,5,sever,Glutton Gunlance 1,345,150,,0,False
 647,,6,sever,Glutton Gunlance 2,437,190,sleep,240,True
 648,,6,sever,Glutton Gunlance 3,437,190,sleep,270,True
 649,,3,sever,Girros Gunlance 1,276,120,sleep,300,True
@@ -655,9 +655,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 654,average,7,sever,Hazak Spysa 1,437,190,paralysis,450,False
 655,average,7,sever,Hazak Spysa 2,460,200,dragon,240,False
 656,,2,sever,Carapace Cannon 1,276,120,dragon,270,False
-657,,3,sever,Carapace Cannon 2,299,130,,0,
-658,,4,sever,Carapace Cannon 3,345,150,,0,
-659,,5,sever,Barroth Blaster 1,391,170,,0,
+657,,3,sever,Carapace Cannon 2,299,130,,0,False
+658,,4,sever,Carapace Cannon 3,345,150,,0,False
+659,,5,sever,Barroth Blaster 1,391,170,,0,False
 660,,6,sever,Barroth Blaster 2,437,190,paralysis,270,True
 661,,6,sever,Barroth Blaster 3,460,200,paralysis,330,True
 662,,3,sever,Blazing Gunlance 1,299,130,paralysis,390,True
@@ -676,11 +676,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 675,,8,sever,Daora's Brigia,414,180,ice,210,False
 676,low,8,sever,Xeno Hemta,391,170,ice,240,False
 677,,1,sever,Proto Iron Axe 1,280,80,dragon,180,False
-678,,1,sever,Proto Iron Axe 2,315,90,,0,
-679,,2,sever,Proto Iron Axe 3,350,100,,0,
-680,,3,sever,Improved Steel Axe 1,385,110,,0,
-681,,4,sever,Improved Steel Axe 2,455,130,,0,
-682,,5,sever,Improved Steel Axe 3,490,140,,0,
+678,,1,sever,Proto Iron Axe 2,315,90,,0,False
+679,,2,sever,Proto Iron Axe 3,350,100,,0,False
+680,,3,sever,Improved Steel Axe 1,385,110,,0,False
+681,,4,sever,Improved Steel Axe 2,455,130,,0,False
+682,,5,sever,Improved Steel Axe 3,490,140,,0,False
 683,,6,sever,Perfected Alloy Axe 1,560,160,poison,300,True
 684,,6,sever,Perfected Alloy Axe 2,630,180,poison,360,True
 685,high,7,sever,Nergal Gash,665,190,poison,420,True
@@ -697,9 +697,9 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 696,,6,sever,Motor Chopper 1,630,180,thunder,180,False
 697,,7,sever,Motor Chopper 2,735,210,fire,120,False
 698,,2,sever,Jagras Axe 1,385,110,fire,120,False
-699,,3,sever,Jagras Axe 2,420,120,,0,
-700,,4,sever,Jagras Axe 3,490,140,,0,
-701,,5,sever,Jagras Raider 1,560,160,,0,
+699,,3,sever,Jagras Axe 2,420,120,,0,False
+700,,4,sever,Jagras Axe 3,490,140,,0,False
+701,,5,sever,Jagras Raider 1,560,160,,0,False
 702,,6,sever,Jagras Raider 2,630,180,sleep,180,True
 703,,6,sever,Jagras Raider 3,665,190,sleep,210,True
 704,,6,sever,Bazel Raider 1,665,190,sleep,240,True
@@ -709,14 +709,14 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 708,,6,sever,Rathbringer Axe 1,560,160,fire,120,False
 709,,7,sever,Rathbringer Axe 2,665,190,fire,150,False
 710,,1,sever,Bone Axe 1,315,90,fire,150,False
-711,,1,sever,Bone Axe 2,350,100,,0,
-712,,2,sever,Bone Axe 3,385,110,,0,
-713,,3,sever,Bone Smasher 1,490,140,,0,
-714,,4,sever,Bone Smasher 2,525,150,,0,
-715,,5,sever,Bone Smasher 3,560,160,,0,
-716,average,6,sever,Power Smasher 1,595,170,,0,
-717,average,6,sever,Power Smasher 2,665,190,,0,
-718,average,7,sever,Hazak Demios 1,665,190,,0,
+711,,1,sever,Bone Axe 2,350,100,,0,False
+712,,2,sever,Bone Axe 3,385,110,,0,False
+713,,3,sever,Bone Smasher 1,490,140,,0,False
+714,,4,sever,Bone Smasher 2,525,150,,0,False
+715,,5,sever,Bone Smasher 3,560,160,,0,False
+716,average,6,sever,Power Smasher 1,595,170,,0,False
+717,average,6,sever,Power Smasher 2,665,190,,0,False
+718,average,7,sever,Hazak Demios 1,665,190,,0,False
 719,average,7,,Hazak Demios 2,700,200,dragon,180,False
 720,,2,sever,Madness Axe 1,385,110,dragon,210,False
 721,,3,sever,Madness Axe 2,420,120,water,150,False
@@ -725,18 +725,18 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 724,,6,sever,Jyura Drought 2,630,180,water,240,False
 725,,7,sever,Jyura Drought 3,665,190,water,270,False
 726,,3,sever,Lumu Axe 1,420,120,water,300,False
-727,,4,sever,Lumu Axe 2,490,140,,0,
-728,,5,sever,Lumu Smasher 1,525,150,,0,
+727,,4,sever,Lumu Axe 2,490,140,,0,False
+728,,5,sever,Lumu Smasher 1,525,150,,0,False
 729,,6,sever,Lumu Smasher 2,560,160,blast,360,True
 730,,7,sever,Lumu Smasher 3,595,170,blast,390,True
 731,,2,sever,Carapace Axe 1,420,120,blast,420,True
-732,,3,sever,Carapace Axe 2,490,140,,0,
-733,,4,sever,Carapace Axe 3,560,160,,0,
-734,,5,sever,Barroth Grinder 1,595,170,,0,
+732,,3,sever,Carapace Axe 2,490,140,,0,False
+733,,4,sever,Carapace Axe 3,560,160,,0,False
+734,,5,sever,Barroth Grinder 1,595,170,,0,False
 735,,6,sever,Barroth Grinder 2,665,190,paralysis,240,True
 736,,6,sever,Barroth Grinder 3,735,210,paralysis,270,True
 737,,4,sever,Diablos Axe 1,595,170,paralysis,300,True
-738,,5,sever,Diablos Axe 2,630,180,,0,
+738,,5,sever,Diablos Axe 2,630,180,,0,False
 739,,6,sever,Axe Semper Tyrannis,735,210,ice,90,True
 740,,7,sever,Axe of Thanatos,770,220,ice,120,True
 741,,8,sever,Axe of Demons,805,230,ice,150,True
@@ -755,11 +755,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 754,,8,sever,Teostra's Castle,665,190,blast,300,False
 755,low,8,sever,Xeno Martshu,595,170,blast,300,False
 756,,1,sever,Proto Commission Axe 1,288,80,dragon,150,False
-757,,1,sever,Proto Commission Axe 2,324,90,,0,
-758,,2,sever,Proto Commission Axe 3,360,100,,0,
-759,,3,sever,Elite Commission Axe 1,396,110,,0,
-760,,4,sever,Elite Commission Axe 2,468,130,,0,
-761,,5,sever,Elite Commission Axe 3,504,140,,0,
+757,,1,sever,Proto Commission Axe 2,324,90,,0,False
+758,,2,sever,Proto Commission Axe 3,360,100,,0,False
+759,,3,sever,Elite Commission Axe 1,396,110,,0,False
+760,,4,sever,Elite Commission Axe 2,468,130,,0,False
+761,,5,sever,Elite Commission Axe 3,504,140,,0,False
 762,,6,sever,Chrome Guardian 1,576,160,thunder,120,True
 763,,6,sever,Chrome Guardian 2,648,180,thunder,150,True
 764,high,7,sever,Nergal Lacerator,720,200,thunder,270,True
@@ -783,21 +783,21 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 782,,6,sever,Dear Hecatel,612,170,poison,270,False
 783,,7,sever,Dear Hecatelia,684,190,poison,300,False
 784,,1,sever,Bone Strongarm 1,324,90,poison,330,False
-785,,1,sever,Bone Strongarm 2,360,100,,0,
-786,,2,sever,Bone Strongarm 3,396,110,,0,
-787,,3,sever,Hard Bone Strongarm 1,432,120,,0,
-788,,4,sever,Hard Bone Strongarm 2,504,140,,0,
-789,,5,sever,Hard Bone Strongarm 3,576,160,,0,
+785,,1,sever,Bone Strongarm 2,360,100,,0,False
+786,,2,sever,Bone Strongarm 3,396,110,,0,False
+787,,3,sever,Hard Bone Strongarm 1,432,120,,0,False
+788,,4,sever,Hard Bone Strongarm 2,504,140,,0,False
+789,,5,sever,Hard Bone Strongarm 3,576,160,,0,False
 790,,6,sever,Mighty Strongarm 1,612,170,blast,180,True
 791,,6,sever,Mighty Strongarm 2,684,190,blast,210,True
 792,,4,sever,Diablos Wall 1,612,170,blast,240,True
-793,,5,,Diablos Wall 2,684,195,,0,
+793,,5,,Diablos Wall 2,684,195,,0,False
 794,,6,sever,Diablos Tyrannis 1,756,210,ice,90,True
 795,,7,sever,Diablos Tyrannis 2,828,230,ice,120,True
 796,,2,sever,Jagras Strongarm 1,396,110,ice,150,True
-797,,3,sever,Jagras Strongarm 2,432,120,,0,
-798,,4,sever,Jagras Strongarm 3,468,130,,0,
-799,,5,sever,Jagras Escudo 1,540,150,,0,
+797,,3,sever,Jagras Strongarm 2,432,120,,0,False
+798,,4,sever,Jagras Strongarm 3,468,130,,0,False
+799,,5,sever,Jagras Escudo 1,540,150,,0,False
 800,,6,sever,Jagras Escudo 2,648,180,sleep,120,True
 801,,6,,Jagras Escudo 3,684,195,sleep,150,True
 802,,6,sever,Gama Silt 1,576,160,sleep,180,True
@@ -816,7 +816,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 815,,6,sever,Kadachi Kaina 2,576,160,thunder,150,False
 816,,6,sever,Kadachi Kaina 3,648,180,thunder,180,False
 817,,4,sever,Garon Strongarm 1,468,130,thunder,210,False
-818,,5,sever,Garon Strongarm 2,504,140,,0,
+818,,5,sever,Garon Strongarm 2,504,140,,0,False
 819,,6,sever,Hate's Undying Flame,540,150,fire,120,True
 820,,8,sever,Odium,576,160,fire,150,True
 821,low,3,sever,Dragonbone Cutter 1,360,100,fire,180,True
@@ -830,11 +830,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 829,,8,sever,Daora's Thwartoise,648,180,ice,150,False
 830,low,8,sever,Xeno Ra'atz,648,180,ice,180,False
 831,,1,sever,Iron Blade 1,248,80,dragon,180,False
-832,,1,sever,Iron Blade 2,279,90,,0,
-833,,2,sever,Iron Blade 3,310,100,,0,
-834,,3,sever,Steel Blade 1,341,110,,0,
-835,,4,sever,Steel Blade 2,403,130,,0,
-836,,5,sever,Steel Blade 3,434,140,,0,
+832,,1,sever,Iron Blade 2,279,90,,0,False
+833,,2,sever,Iron Blade 3,310,100,,0,False
+834,,3,sever,Steel Blade 1,341,110,,0,False
+835,,4,sever,Steel Blade 2,403,130,,0,False
+836,,5,sever,Steel Blade 3,434,140,,0,False
 837,,6,sever,Chrome Blade 1,496,160,blast,210,True
 838,,6,sever,Chrome Blade 2,558,180,blast,240,True
 839,high,7,sever,Nergal Reaper,620,200,blast,270,True
@@ -844,14 +844,14 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 843,,6,sever,Rathmaul,527,170,fire,120,False
 844,,7,sever,Firedance Rathmaul,589,190,fire,150,False
 845,,2,sever,Kulu Blade 1,310,100,fire,180,False
-846,,3,sever,Kulu Blade 2,341,110,,0,
-847,,4,sever,Kulu Blade 3,434,140,,0,
-848,,5,sever,Ya-Ku Wrath 1,465,150,,0,
+846,,3,sever,Kulu Blade 2,341,110,,0,False
+847,,4,sever,Kulu Blade 3,434,140,,0,False
+848,,5,sever,Ya-Ku Wrath 1,465,150,,0,False
 849,,6,sever,Ya-Ku Wrath 2,496,160,sleep,150,True
 850,,6,sever,Ya-Ku Wrath 3,527,170,sleep,180,True
 851,,3,sever,Luminous Blade 1,372,120,sleep,210,True
-852,,4,sever,Luminous Blade 2,434,140,,0,
-853,,5,sever,Destroyer Bo 1,496,160,,0,
+852,,4,sever,Luminous Blade 2,434,140,,0,False
+853,,5,sever,Destroyer Bo 1,496,160,,0,False
 854,,6,sever,Destroyer Bo 2,527,170,thunder,240,True
 855,,6,sever,Destroyer Bo 3,558,180,thunder,270,True
 856,,4,sever,Frost Blade 1,434,140,thunder,300,True
@@ -867,11 +867,11 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 866,,6,sever,Gama Cane 1,496,160,poison,390,False
 867,,7,sever,Gama Cane 2,527,170,blast,120,False
 868,,1,sever,Bone Rod 1,279,90,blast,150,False
-869,,1,sever,Bone Rod 2,310,100,,0,
-870,,2,sever,Bone Rod 3,341,110,,0,
-871,,3,sever,Hard Bone Rod 1,434,140,,0,
-872,,4,sever,Hard Bone Rod 2,465,150,,0,
-873,,5,sever,Hard Bone Rod 3,496,160,,0,
+869,,1,sever,Bone Rod 2,310,100,,0,False
+870,,2,sever,Bone Rod 3,341,110,,0,False
+871,,3,sever,Hard Bone Rod 1,434,140,,0,False
+872,,4,sever,Hard Bone Rod 2,465,150,,0,False
+873,,5,sever,Hard Bone Rod 3,496,160,,0,False
 874,,6,sever,Aerial Rod 1,527,170,paralysis,180,True
 875,,6,sever,Aerial Rod 2,589,190,paralysis,210,True
 876,average,7,sever,Hazak Entoma 1,589,190,paralysis,210,True
@@ -886,7 +886,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 885,,6,sever,Water Glaive 2,527,170,water,150,False
 886,,6,sever,Water Glaive 3,589,190,water,180,False
 887,,4,sever,Diablos Rod 1,496,160,water,210,False
-888,,5,sever,Diablos Rod 2,620,200,,0,
+888,,5,sever,Diablos Rod 2,620,200,,0,False
 889,,6,sever,Tyrannis Glaive 1,682,220,ice,120,True
 890,,6,sever,Tyrannis Glaive 2,713,230,ice,150,True
 891,,2,sever,Pulsar Rod 1,341,110,ice,180,True
@@ -896,7 +896,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 895,,6,sever,Kadachi Pillar 2,527,170,thunder,180,False
 896,,6,sever,Kadachi Pillar 3,558,180,thunder,210,False
 897,,4,sever,Garon Rod 1,403,130,thunder,240,False
-898,,5,sever,Garon Rod 2,434,140,,0,
+898,,5,sever,Garon Rod 2,434,140,,0,False
 899,,6,sever,Temptation's Trident,465,150,fire,90,True
 900,,6,sever,Vice,496,160,fire,120,True
 901,low,3,sever,Dragonbone Glaive 1,310,100,fire,150,True
@@ -911,187 +911,187 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 910,low,8,sever,Daora's Tethidine,558,180,ice,150,False
 911,low,8,sever,Xeno Shmaena,558,180,ice,180,False
 912,,1,projectile,Chain Blitz 1,130,100,dragon,120,False
-913,,1,projectile,Chain Blitz 2,143,110,,0,
-914,,2,projectile,Chain Blitz 3,156,120,,0,
-915,,3,projectile,High Chain Blitz 1,169,130,,0,
-916,,4,projectile,High Chain Blitz 2,182,140,,0,
-917,,5,projectile,High Chain Blitz 3,195,150,,0,
-918,,6,projectile,Cross Blitz 1,208,160,,0,
-919,,6,projectile,Cross Blitz 2,234,180,,0,
-920,,7,projectile,Nergal Spitter,247,190,,0,
-921,,8,projectile,Cataclysm's Trigger,260,200,,0,
-922,,3,projectile,Lumu Blitz 1,169,130,,0,
-923,,4,projectile,Lumu Blitz 2,182,140,,0,
-924,,5,projectile,Lumu Typhon 1,195,150,,0,
-925,,6,projectile,Lumu Typhon 2,208,160,,0,
-926,,6,projectile,Lumu Typhon 3,221,170,,0,
-927,,6,projectile,Bazel Typhoon 1,247,190,,0,
-928,,7,projectile,Bazel Typhoon 2,260,200,,0,
-929,,2,projectile,Jagras Blitz 1,169,130,,0,
-930,,3,projectile,Jagras Blitz 2,182,140,,0,
-931,,4,projectile,Jagras Blitz 3,195,150,,0,
-932,,5,projectile,Jagras Fire 1,208,160,,0,
-933,,6,projectile,Jagras Fire 2,234,180,,0,
-934,,6,projectile,Jagras Fire 3,247,190,,0,
-935,,4,projectile,Flame Blitz 1,195,150,,0,
-936,,5,projectile,Flame Blitz 2,208,160,,0,
-937,,6,projectile,Rathbuster 1,221,170,,0,
-938,,7,projectile,Rathbuster 2,247,190,,0,
-939,,3,projectile,Thunder Blitz 1,182,140,,0,
-940,,4,projectile,Thunder Blitz 2,195,150,,0,
-941,,5,projectile,Lightning Blitz 1,208,160,,0,
-942,,6,projectile,Lightning Blitz 2,221,170,,0,
-943,,6,projectile,Lightning Blitz 3,234,180,,0,
-944,,4,projectile,Snow Blitz 1,182,140,,0,
-945,,5,projectile,Snow Blitz 2,195,150,,0,
-946,,6,projectile,Frost Blitz 1,221,170,,0,
-947,,6,projectile,Frost Blitz 2,247,190,,0,
-948,,1,projectile,Hunter's Rifle 1,143,110,,0,
-949,,1,projectile,Hunter's Rifle 2,156,120,,0,
-950,,2,projectile,Hunter's Rifle 3,169,130,,0,
-951,,3,projectile,Power Rifle 1,182,140,,0,
-952,,4,projectile,Power Rifle 2,195,150,,0,
-953,,5,projectile,Power Rifle 3,208,160,,0,
-954,,6,projectile,Sniper Shot 1,221,170,,0,
-955,,6,projectile,Sniper Shot 2,247,190,,0,
-956,,7,projectile,Hazak Ereipia,247,190,,0,
-957,,8,projectile,Gulgoleth's Wail,260,200,,0,
-958,,3,projectile,Blazing Rifle 1,195,150,,0,
-959,,4,projectile,Blazing Rifle 2,221,170,,0,
-960,,5,projectile,Anja Buster 1,234,180,,0,
-961,,6,projectile,Anja Buster 2,260,200,,0,
-962,,6,projectile,Anja Buster 3,273,210,,0,
-963,,2,projectile,Madness Rifle 1,169,130,,0,
-964,,3,projectile,Madness Rifle 2,182,140,,0,
-965,,4,projectile,Madness Rifle 3,195,150,,0,
-966,,5,projectile,Jyura Bullet 1,208,160,,0,
-967,,6,projectile,Jyura Bullet 2,234,180,,0,
-968,,6,projectile,Jyura Bullet 3,247,190,,0,
-969,,6,projectile,Lava Bullet 1,221,170,,0,
-970,,7,projectile,Lava Bullet 2,234,180,,0,
-971,,2,projectile,Carapace Rifle 1,169,130,,0,
-972,,3,projectile,Carapace Rifle 2,182,140,,0,
-973,,4,projectile,Carapace Rifle 3,208,160,,0,
-974,,5,projectile,Barroth Shot 1,234,180,,0,
-975,,6,projectile,Barroth Shot 2,247,190,,0,
-976,,6,projectile,Barroth Shot 3,260,200,,0,
-977,,4,projectile,Garon Rifle 1,195,150,,0,
-978,,5,projectile,Garon Rifle 2,208,160,,0,
-979,,6,projectile,Fate's Ember,221,170,,0,
-980,,8,projectile,Karma,234,180,,0,
-981,,3,projectile,Dragonbone Bowgun 1,130,100,,0,
-982,,4,projectile,Dragonbone Bowgun 2,143,110,,0,
-983,,6,projectile,Dragonbone Bowgun 3,208,160,,0,
-984,,7,projectile,Onigashima,208,160,,0,
-985,,8,projectile,Dai-Onigashima,221,170,,0,
-986,,4,projectile,Mythical Horn,143,110,,0,
-987,,7,projectile,Mythical Horn+,182,140,,0,
-988,,8,projectile,Mythical Three-Horn,208,160,,0,
-989,,5,projectile,Blacksteel Crossbow 1,130,100,,0,
-990,,6,projectile,Blacksteel Crossbow 2,143,110,,0,
-991,,7,projectile,Icesteel Wasp,221,170,,0,
-992,,8,projectile,Daora's Hornet,234,180,,0,
-993,,8,projectile,Xeno Neqiina,234,180,,0,
-994,,6,projectile,Cross Bowgun,234,180,,0,
-995,,8,projectile,Great Bowgun,260,200,,0,
-996,,1,projectile,Iron Assault 1,150,100,,0,
-997,,1,projectile,Iron Assault 2,165,110,,0,
-998,,2,projectile,Iron Assault 3,180,120,,0,
-999,,3,projectile,Steel Assault 1,195,130,,0,
-1000,,4,projectile,Steel Assault 2,210,140,,0,
-1001,,5,projectile,Steel Assault 3,225,150,,0,
-1002,,6,projectile,Chrome Assault 1,240,160,,0,
-1003,,6,projectile,Chrome Assault 2,255,170,,0,
-1004,,7,projectile,Nergal Roar,270,180,,0,
-1005,,8,projectile,Destruction's Fusillade,285,190,,0,
-1006,,2,projectile,Aqua Assault 1,180,120,,0,
-1007,,3,projectile,Aqua Assault 2,195,130,,0,
-1008,,4,projectile,Aqua Assault 3,210,140,,0,
-1009,,5,projectile,Water Cannon 1,225,150,,0,
-1010,,6,projectile,Water Cannon 2,240,160,,0,
-1011,,6,projectile,Water Cannon 3,255,170,,0,
-1012,,3,projectile,Luminous Assault 1,195,130,,0,
-1013,,4,projectile,Luminous Assault 2,210,140,,0,
-1014,,5,projectile,Arma Destroyer 1,225,150,,0,
-1015,,6,projectile,Arma Destroyer 2,240,160,,0,
-1016,,6,projectile,Arma Destroyer 3,255,170,,0,
-1017,,4,projectile,Shattercryst,210,140,,0,
-1018,,6,projectile,Shattercryst+,240,160,,0,
-1019,,8,projectile,Legia Shattercryst,255,170,,0,
-1020,,2,projectile,Jagras Assault 1,180,120,,0,
-1021,,3,projectile,Jagras Assault 2,195,130,,0,
-1022,,4,projectile,Jagras Assault 3,210,140,,0,
-1023,,5,projectile,Jagras Cannon 1,240,160,,0,
-1024,,6,projectile,Jagras Cannon 2,255,170,,0,
-1026,,3,projectile,Blazing Assault 1,210,140,,0,
-1027,,4,projectile,Blazing Assault 2,225,150,,0,
-1028,,5,projectile,Flammenkanone,255,170,,0,
-1029,,7,projectile,Gnashing Flammenkanone,300,200,,0,
-1030,,1,projectile,Bone Shooter 1,150,100,,0,
-1031,,1,projectile,Bone Shooter 2,165,110,,0,
-1032,,2,projectile,Bone Shooter 3,195,130,,0,
-1033,,3,projectile,Heavy Shooter 1,210,140,,0,
-1034,,4,projectile,Heavy Shooter 2,225,150,,0,
-1035,,5,projectile,Heavy Shooter 3,240,160,,0,
-1036,,6,projectile,Power Shooter 1,255,170,,0,
-1037,,6,projectile,Power Shooter 2,270,180,,0,
-1038,,4,projectile,Diablos Shooter 1,240,160,,0,
-1039,,5,projectile,Diablos Shooter 2,270,180,,0,
-1040,,6,projectile,Dual Threat,300,200,,0,
-1041,,7,projectile,Nero's Blazooka,315,210,,0,
-1042,,8,projectile,Griffon Blazooka,330,220,,0,
-1043,,2,projectile,Blooming Shooter 1,180,120,,0,
-1044,,3,projectile,Blooming Shooter 2,195,130,,0,
-1045,,4,projectile,Blooming Shooter 3,210,140,,0,
-1046,,5,projectile,Datura Blaster 1,225,150,,0,
-1047,,6,projectile,Datura Blaster 2,240,160,,0,
-1048,,6,projectile,Datura Blaster 3,255,170,,0,
-1049,,3,projectile,Spiked Shooter 1,195,130,,0,
-1050,,4,projectile,Spiked Shooter 2,210,140,,0,
-1051,,5,projectile,Baan Roar 1,225,150,,0,
-1052,,6,projectile,Baan Roar 2,255,170,,0,
-1053,,6,projectile,Baan Roar 3,270,180,,0,
-1054,,6,projectile,Gama Cannon 1,240,160,,0,
-1055,,7,projectile,Gama Cannon 2,255,170,,0,
-1056,,2,projectile,Pulsar Shooter 1,180,120,,0,
-1057,,3,projectile,Pulsar Shooter 2,195,130,,0,
-1058,,4,projectile,Pulsar Shooter 3,210,140,,0,
-1059,,5,projectile,Kadachi Lion 1,225,150,,0,
-1060,,6,projectile,Kadachi Lion 2,240,160,,0,
-1061,,6,projectile,Kadachi Lion 3,255,170,,0,
-1062,,3,projectile,Dragonbone Cannon 1,150,100,,0,
-1063,,4,projectile,Dragonbone Cannon 2,210,140,,0,
-1064,,6,projectile,Dragonbone Cannon 3,255,170,,0,
-1065,,4,projectile,Quickcaster,195,130,,0,
-1066,,7,projectile,Quickcaster+,240,160,,0,
-1067,,8,projectile,Quickquiver,255,170,,0,
-1068,,5,projectile,Magda Gemitus 1,240,160,,0,
-1069,,7,projectile,Magda Gemitus 2,315,210,,0,
-1070,,5,projectile,Blacksteel Cannon 1,150,100,,0,
-1071,,6,projectile,Blacksteel Cannon 2,165,110,,0,
-1072,,7,projectile,Teostra's Artillery,255,170,,0,
-1073,,8,projectile,Teostra's Flames,270,180,,0,
-1074,,8,projectile,Xeno Jiiqa,255,170,,0,
-1075,,1,projectile,Iron Bow 1,96,80,,0,
-1076,,1,projectile,Iron Bow 2,108,90,,0,
-1077,,2,projectile,Iron Bow 3,120,100,,0,
-1078,,3,projectile,Steel Bow 1,132,110,,0,
-1079,,4,projectile,Steel Bow 2,156,130,,0,
-1080,,5,projectile,Steel Bow 3,168,140,,0,
+913,,1,projectile,Chain Blitz 2,143,110,,0,False
+914,,2,projectile,Chain Blitz 3,156,120,,0,False
+915,,3,projectile,High Chain Blitz 1,169,130,,0,False
+916,,4,projectile,High Chain Blitz 2,182,140,,0,False
+917,,5,projectile,High Chain Blitz 3,195,150,,0,False
+918,,6,projectile,Cross Blitz 1,208,160,,0,False
+919,,6,projectile,Cross Blitz 2,234,180,,0,False
+920,,7,projectile,Nergal Spitter,247,190,,0,False
+921,,8,projectile,Cataclysm's Trigger,260,200,,0,False
+922,,3,projectile,Lumu Blitz 1,169,130,,0,False
+923,,4,projectile,Lumu Blitz 2,182,140,,0,False
+924,,5,projectile,Lumu Typhon 1,195,150,,0,False
+925,,6,projectile,Lumu Typhon 2,208,160,,0,False
+926,,6,projectile,Lumu Typhon 3,221,170,,0,False
+927,,6,projectile,Bazel Typhoon 1,247,190,,0,False
+928,,7,projectile,Bazel Typhoon 2,260,200,,0,False
+929,,2,projectile,Jagras Blitz 1,169,130,,0,False
+930,,3,projectile,Jagras Blitz 2,182,140,,0,False
+931,,4,projectile,Jagras Blitz 3,195,150,,0,False
+932,,5,projectile,Jagras Fire 1,208,160,,0,False
+933,,6,projectile,Jagras Fire 2,234,180,,0,False
+934,,6,projectile,Jagras Fire 3,247,190,,0,False
+935,,4,projectile,Flame Blitz 1,195,150,,0,False
+936,,5,projectile,Flame Blitz 2,208,160,,0,False
+937,,6,projectile,Rathbuster 1,221,170,,0,False
+938,,7,projectile,Rathbuster 2,247,190,,0,False
+939,,3,projectile,Thunder Blitz 1,182,140,,0,False
+940,,4,projectile,Thunder Blitz 2,195,150,,0,False
+941,,5,projectile,Lightning Blitz 1,208,160,,0,False
+942,,6,projectile,Lightning Blitz 2,221,170,,0,False
+943,,6,projectile,Lightning Blitz 3,234,180,,0,False
+944,,4,projectile,Snow Blitz 1,182,140,,0,False
+945,,5,projectile,Snow Blitz 2,195,150,,0,False
+946,,6,projectile,Frost Blitz 1,221,170,,0,False
+947,,6,projectile,Frost Blitz 2,247,190,,0,False
+948,,1,projectile,Hunter's Rifle 1,143,110,,0,False
+949,,1,projectile,Hunter's Rifle 2,156,120,,0,False
+950,,2,projectile,Hunter's Rifle 3,169,130,,0,False
+951,,3,projectile,Power Rifle 1,182,140,,0,False
+952,,4,projectile,Power Rifle 2,195,150,,0,False
+953,,5,projectile,Power Rifle 3,208,160,,0,False
+954,,6,projectile,Sniper Shot 1,221,170,,0,False
+955,,6,projectile,Sniper Shot 2,247,190,,0,False
+956,,7,projectile,Hazak Ereipia,247,190,,0,False
+957,,8,projectile,Gulgoleth's Wail,260,200,,0,False
+958,,3,projectile,Blazing Rifle 1,195,150,,0,False
+959,,4,projectile,Blazing Rifle 2,221,170,,0,False
+960,,5,projectile,Anja Buster 1,234,180,,0,False
+961,,6,projectile,Anja Buster 2,260,200,,0,False
+962,,6,projectile,Anja Buster 3,273,210,,0,False
+963,,2,projectile,Madness Rifle 1,169,130,,0,False
+964,,3,projectile,Madness Rifle 2,182,140,,0,False
+965,,4,projectile,Madness Rifle 3,195,150,,0,False
+966,,5,projectile,Jyura Bullet 1,208,160,,0,False
+967,,6,projectile,Jyura Bullet 2,234,180,,0,False
+968,,6,projectile,Jyura Bullet 3,247,190,,0,False
+969,,6,projectile,Lava Bullet 1,221,170,,0,False
+970,,7,projectile,Lava Bullet 2,234,180,,0,False
+971,,2,projectile,Carapace Rifle 1,169,130,,0,False
+972,,3,projectile,Carapace Rifle 2,182,140,,0,False
+973,,4,projectile,Carapace Rifle 3,208,160,,0,False
+974,,5,projectile,Barroth Shot 1,234,180,,0,False
+975,,6,projectile,Barroth Shot 2,247,190,,0,False
+976,,6,projectile,Barroth Shot 3,260,200,,0,False
+977,,4,projectile,Garon Rifle 1,195,150,,0,False
+978,,5,projectile,Garon Rifle 2,208,160,,0,False
+979,,6,projectile,Fate's Ember,221,170,,0,False
+980,,8,projectile,Karma,234,180,,0,False
+981,,3,projectile,Dragonbone Bowgun 1,130,100,,0,False
+982,,4,projectile,Dragonbone Bowgun 2,143,110,,0,False
+983,,6,projectile,Dragonbone Bowgun 3,208,160,,0,False
+984,,7,projectile,Onigashima,208,160,,0,False
+985,,8,projectile,Dai-Onigashima,221,170,,0,False
+986,,4,projectile,Mythical Horn,143,110,,0,False
+987,,7,projectile,Mythical Horn+,182,140,,0,False
+988,,8,projectile,Mythical Three-Horn,208,160,,0,False
+989,,5,projectile,Blacksteel Crossbow 1,130,100,,0,False
+990,,6,projectile,Blacksteel Crossbow 2,143,110,,0,False
+991,,7,projectile,Icesteel Wasp,221,170,,0,False
+992,,8,projectile,Daora's Hornet,234,180,,0,False
+993,,8,projectile,Xeno Neqiina,234,180,,0,False
+994,,6,projectile,Cross Bowgun,234,180,,0,False
+995,,8,projectile,Great Bowgun,260,200,,0,False
+996,,1,projectile,Iron Assault 1,150,100,,0,False
+997,,1,projectile,Iron Assault 2,165,110,,0,False
+998,,2,projectile,Iron Assault 3,180,120,,0,False
+999,,3,projectile,Steel Assault 1,195,130,,0,False
+1000,,4,projectile,Steel Assault 2,210,140,,0,False
+1001,,5,projectile,Steel Assault 3,225,150,,0,False
+1002,,6,projectile,Chrome Assault 1,240,160,,0,False
+1003,,6,projectile,Chrome Assault 2,255,170,,0,False
+1004,,7,projectile,Nergal Roar,270,180,,0,False
+1005,,8,projectile,Destruction's Fusillade,285,190,,0,False
+1006,,2,projectile,Aqua Assault 1,180,120,,0,False
+1007,,3,projectile,Aqua Assault 2,195,130,,0,False
+1008,,4,projectile,Aqua Assault 3,210,140,,0,False
+1009,,5,projectile,Water Cannon 1,225,150,,0,False
+1010,,6,projectile,Water Cannon 2,240,160,,0,False
+1011,,6,projectile,Water Cannon 3,255,170,,0,False
+1012,,3,projectile,Luminous Assault 1,195,130,,0,False
+1013,,4,projectile,Luminous Assault 2,210,140,,0,False
+1014,,5,projectile,Arma Destroyer 1,225,150,,0,False
+1015,,6,projectile,Arma Destroyer 2,240,160,,0,False
+1016,,6,projectile,Arma Destroyer 3,255,170,,0,False
+1017,,4,projectile,Shattercryst,210,140,,0,False
+1018,,6,projectile,Shattercryst+,240,160,,0,False
+1019,,8,projectile,Legia Shattercryst,255,170,,0,False
+1020,,2,projectile,Jagras Assault 1,180,120,,0,False
+1021,,3,projectile,Jagras Assault 2,195,130,,0,False
+1022,,4,projectile,Jagras Assault 3,210,140,,0,False
+1023,,5,projectile,Jagras Cannon 1,240,160,,0,False
+1024,,6,projectile,Jagras Cannon 2,255,170,,0,False
+1026,,3,projectile,Blazing Assault 1,210,140,,0,False
+1027,,4,projectile,Blazing Assault 2,225,150,,0,False
+1028,,5,projectile,Flammenkanone,255,170,,0,False
+1029,,7,projectile,Gnashing Flammenkanone,300,200,,0,False
+1030,,1,projectile,Bone Shooter 1,150,100,,0,False
+1031,,1,projectile,Bone Shooter 2,165,110,,0,False
+1032,,2,projectile,Bone Shooter 3,195,130,,0,False
+1033,,3,projectile,Heavy Shooter 1,210,140,,0,False
+1034,,4,projectile,Heavy Shooter 2,225,150,,0,False
+1035,,5,projectile,Heavy Shooter 3,240,160,,0,False
+1036,,6,projectile,Power Shooter 1,255,170,,0,False
+1037,,6,projectile,Power Shooter 2,270,180,,0,False
+1038,,4,projectile,Diablos Shooter 1,240,160,,0,False
+1039,,5,projectile,Diablos Shooter 2,270,180,,0,False
+1040,,6,projectile,Dual Threat,300,200,,0,False
+1041,,7,projectile,Nero's Blazooka,315,210,,0,False
+1042,,8,projectile,Griffon Blazooka,330,220,,0,False
+1043,,2,projectile,Blooming Shooter 1,180,120,,0,False
+1044,,3,projectile,Blooming Shooter 2,195,130,,0,False
+1045,,4,projectile,Blooming Shooter 3,210,140,,0,False
+1046,,5,projectile,Datura Blaster 1,225,150,,0,False
+1047,,6,projectile,Datura Blaster 2,240,160,,0,False
+1048,,6,projectile,Datura Blaster 3,255,170,,0,False
+1049,,3,projectile,Spiked Shooter 1,195,130,,0,False
+1050,,4,projectile,Spiked Shooter 2,210,140,,0,False
+1051,,5,projectile,Baan Roar 1,225,150,,0,False
+1052,,6,projectile,Baan Roar 2,255,170,,0,False
+1053,,6,projectile,Baan Roar 3,270,180,,0,False
+1054,,6,projectile,Gama Cannon 1,240,160,,0,False
+1055,,7,projectile,Gama Cannon 2,255,170,,0,False
+1056,,2,projectile,Pulsar Shooter 1,180,120,,0,False
+1057,,3,projectile,Pulsar Shooter 2,195,130,,0,False
+1058,,4,projectile,Pulsar Shooter 3,210,140,,0,False
+1059,,5,projectile,Kadachi Lion 1,225,150,,0,False
+1060,,6,projectile,Kadachi Lion 2,240,160,,0,False
+1061,,6,projectile,Kadachi Lion 3,255,170,,0,False
+1062,,3,projectile,Dragonbone Cannon 1,150,100,,0,False
+1063,,4,projectile,Dragonbone Cannon 2,210,140,,0,False
+1064,,6,projectile,Dragonbone Cannon 3,255,170,,0,False
+1065,,4,projectile,Quickcaster,195,130,,0,False
+1066,,7,projectile,Quickcaster+,240,160,,0,False
+1067,,8,projectile,Quickquiver,255,170,,0,False
+1068,,5,projectile,Magda Gemitus 1,240,160,,0,False
+1069,,7,projectile,Magda Gemitus 2,315,210,,0,False
+1070,,5,projectile,Blacksteel Cannon 1,150,100,,0,False
+1071,,6,projectile,Blacksteel Cannon 2,165,110,,0,False
+1072,,7,projectile,Teostra's Artillery,255,170,,0,False
+1073,,8,projectile,Teostra's Flames,270,180,,0,False
+1074,,8,projectile,Xeno Jiiqa,255,170,,0,False
+1075,,1,projectile,Iron Bow 1,96,80,,0,False
+1076,,1,projectile,Iron Bow 2,108,90,,0,False
+1077,,2,projectile,Iron Bow 3,120,100,,0,False
+1078,,3,projectile,Steel Bow 1,132,110,,0,False
+1079,,4,projectile,Steel Bow 2,156,130,,0,False
+1080,,5,projectile,Steel Bow 3,168,140,,0,False
 1081,,6,projectile,Alloy Bow 1,180,150,thunder,90,True
 1082,,6,projectile,Alloy Bow 2,204,170,thunder,120,True
 1083,high,7,projectile,Nergal Whisper,228,190,thunder,150,True
 1084,high,8,projectile,Doom's Shaft,240,200,dragon,120,False
 1085,,2,projectile,Kulu Arrow 1,120,100,dragon,150,False
-1086,,3,projectile,Kulu Arrow 2,132,110,,0,
-1087,,4,projectile,Kulu Arrow 3,156,130,,0,
-1088,,5,projectile,Archer's Dance 1,180,150,,0,
+1086,,3,projectile,Kulu Arrow 2,132,110,,0,False
+1087,,4,projectile,Kulu Arrow 3,156,130,,0,False
+1088,,5,projectile,Archer's Dance 1,180,150,,0,False
 1089,,6,projectile,Archer's Dance 2,204,170,blast,210,True
 1090,,6,projectile,Archer's Dance 3,204,170,blast,270,True
 1091,,6,projectile,Brazencord,204,170,blast,270,True
 1092,,8,projectile,Gigacles,228,190,fire,120,False
 1093,,3,projectile,Princess Arrow 1,132,110,fire,150,False
-1094,low,5,projectile,Princess Arrow 2,192,160,,0,
+1094,low,5,projectile,Princess Arrow 2,192,160,,0,False
 1095,low,6,projectile,Princess Arrow 3,216,180,dragon,180,True
 1096,,4,projectile,Rathslinger 1,144,120,dragon,240,True
 1097,,6,projectile,Rathslinger 2,204,170,fire,150,False
@@ -1107,24 +1107,24 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 1107,,6,projectile,Snowfletcher,168,140,ice,330,False
 1108,,8,projectile,Legia Snowfletcher,180,150,ice,360,False
 1109,,1,projectile,Hunter's Bow 1,120,100,ice,390,False
-1110,,1,projectile,Hunter's Bow 2,132,110,,0,
-1111,,2,projectile,Hunter's Bow 3,144,120,,0,
-1112,,3,projectile,Hunter's Stoutbow 1,156,130,,0,
-1113,,4,projectile,Hunter's Stoutbow 2,168,140,,0,
-1114,,5,projectile,Hunter's Stoutbow 3,180,150,,0,
+1110,,1,projectile,Hunter's Bow 2,132,110,,0,False
+1111,,2,projectile,Hunter's Bow 3,144,120,,0,False
+1112,,3,projectile,Hunter's Stoutbow 1,156,130,,0,False
+1113,,4,projectile,Hunter's Stoutbow 2,168,140,,0,False
+1114,,5,projectile,Hunter's Stoutbow 3,180,150,,0,False
 1115,,6,projectile,Hunter's Proudbow 1,192,160,water,240,True
 1116,,6,projectile,Hunter's Proudbow 2,216,180,water,300,True
 1117,average,0,projectile,Hazak Velos 1,216,180,water,360,True
 1118,average,0,projectile,Hazak Velos 2,228,190,dragon,240,False
 1119,,4,projectile,Diablos Bow 1,192,160,dragon,270,False
-1120,,5,projectile,Diablos Bow 2,216,180,,0,
+1120,,5,projectile,Diablos Bow 2,216,180,,0,False
 1121,,6,projectile,Diablos Coilbender,240,200,ice,60,True
 1122,,7,projectile,Galebender,252,210,ice,90,True
 1123,,8,projectile,Cera Coilbender,264,220,ice,120,True
 1124,,2,projectile,Blooming Arch 1,144,120,ice,150,True
-1125,,3,projectile,Blooming Arch 2,156,130,,0,
-1126,,4,projectile,Blooming Arch 3,168,140,,0,
-1127,,5,projectile,Datura String 1,180,150,,0,
+1125,,3,projectile,Blooming Arch 2,156,130,,0,False
+1126,,4,projectile,Blooming Arch 3,168,140,,0,False
+1127,,5,projectile,Datura String 1,180,150,,0,False
 1128,,6,projectile,Datura String 2,192,160,blast,180,True
 1129,,6,projectile,Datura String 3,204,170,blast,210,True
 1130,,3,projectile,Blazing Bow 1,156,130,blast,240,True
@@ -1170,19 +1170,19 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 1170,high,6,sever,Bad Wing,620,200,dragon,210,False
 1171,high,7,sever,Grunge Storm,682,220,dragon,150,False
 1172,,7,projectile,Devil's Grin,299,230,dragon,210,False
-1174,,6,projectile,Gluttonous Cannon,315,210,,0,
-1175,,7,projectile,Dark Devourer,345,230,,0,
-1176,high,6,projectile,Insurgent's Bow,252,210,,0,
+1174,,6,projectile,Gluttonous Cannon,315,210,,0,False
+1175,,7,projectile,Dark Devourer,345,230,,0,False
+1176,high,6,projectile,Insurgent's Bow,252,210,,0,False
 1177,high,7,projectile,Villainous Brace,276,230,dragon,150,False
 1178,,5,projectile,Aloy's Bow,168,140,dragon,210,False
 1179,,6,projectile,Aloy's War Bow,192,160,thunder,180,True
 1180,,4,sever,"Wyvern Ignition ""Steel""",720,150,thunder,240,True
-1181,,7,sever,"Wyvern Ignition ""Impact""",1008,210,,0,
+1181,,7,sever,"Wyvern Ignition ""Impact""",1008,210,,0,False
 1182,,7,sever,Empress Galea,864,180,fire,510,True
 1183,,8,sever,"Empress Galea ""Blaze""",864,180,blast,210,False
 1184,,8,sever,"Empress Galea ""Ruin""",912,190,blast,270,False
 1185,,8,sever,"Empress Galea ""Styx""",864,180,blast,210,False
-1187,,7,sever,Empress Sword,594,180,,0,
+1187,,7,sever,Empress Sword,594,180,,0,False
 1188,,8,sever,"Empress Sword ""Blaze""",594,180,blast,150,False
 1189,,8,sever,"Empress Sword ""Ruin""",627,190,blast,180,False
 1190,,8,sever,"Empress Sword ""Styx""",594,180,blast,150,False
@@ -1203,7 +1203,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 1205,,8,blunt,"Empress Roar ""Blaze""",798,190,blast,150,False
 1206,,8,blunt,"Empress Roar ""Ruin""",840,200,blast,180,False
 1207,,8,blunt,"Empress Roar ""Styx""",798,190,blast,150,False
-1209,,7,sever,Empress Lance,414,180,,0,
+1209,,7,sever,Empress Lance,414,180,,0,False
 1210,,8,sever,"Empress Lance ""Blaze""",414,180,blast,150,False
 1211,,8,sever,"Empress Lance ""Ruin""",437,190,blast,180,False
 1212,,8,sever,"Empress Lance ""Styx""",414,180,blast,150,False
@@ -1229,51 +1229,51 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 1232,high,7,sever,Gae Bolg,558,180,blast,210,False
 1233,high,8,sever,True Gae Bolg,589,190,dragon,240,False
 1234,,7,projectile,Empress Shell,247,190,dragon,300,False
-1235,,8,projectile,"Empress Shell ""Blaze""",247,190,,0,
-1236,,8,projectile,"Empress Shell ""Ruin""",260,200,,0,
-1237,,8,projectile,"Empress Shell ""Styx""",247,190,,0,
-1238,,7,projectile,Gluttonous Fangcannon,270,180,,0,
-1239,,7,projectile,Empress Cannon,285,190,,0,
-1240,,8,projectile,"Empress Cannon ""Blaze""",285,190,,0,
-1241,,8,projectile,"Empress Cannon ""Ruin""",300,200,,0,
-1242,,8,projectile,"Empress Cannon ""Styx""",285,190,,0,
-1243,,7,projectile,Empress Arrow,216,180,,0,
+1235,,8,projectile,"Empress Shell ""Blaze""",247,190,,0,False
+1236,,8,projectile,"Empress Shell ""Ruin""",260,200,,0,False
+1237,,8,projectile,"Empress Shell ""Styx""",247,190,,0,False
+1238,,7,projectile,Gluttonous Fangcannon,270,180,,0,False
+1239,,7,projectile,Empress Cannon,285,190,,0,False
+1240,,8,projectile,"Empress Cannon ""Blaze""",285,190,,0,False
+1241,,8,projectile,"Empress Cannon ""Ruin""",300,200,,0,False
+1242,,8,projectile,"Empress Cannon ""Styx""",285,190,,0,False
+1243,,7,projectile,Empress Arrow,216,180,,0,False
 1244,,8,projectile,"Empress Arrow ""Blaze""",216,180,blast,90,False
 1245,,8,projectile,"Empress Arrow ""Ruin""",228,190,blast,120,False
 1246,,8,projectile,"Empress Arrow ""Styx""",216,180,blast,90,False
 1247,,7,projectile,"Taroth Assault ""Glutton""",270,180,blast,180,False
-1248,,6,projectile,Gold Blast Cannon,210,140,,0,
-1249,,6,projectile,Crusher Gold Cannon,240,160,,0,
-1250,,6,projectile,Flash Gold Cannon,210,140,,0,
-1251,,6,projectile,Glutton Gold Cannon,225,150,,0,
-1252,,6,projectile,Horn Gold Cannon,270,180,,0,
-1253,,6,projectile,Gold Icewater Cannon,225,150,,0,
-1254,,6,projectile,Magma Gold Cannon,270,180,,0,
-1255,,6,projectile,Rage Gold Cannon,255,170,,0,
-1256,,6,projectile,Spark Gold Cannon,210,140,,0,
-1257,,6,projectile,Spew Gold Cannon,225,150,,0,
-1258,,6,projectile,Gold Support Cannon,210,140,,0,
-1259,,6,projectile,Tar Gold Cannon,225,150,,0,
-1260,,7,projectile,"Taroth Assault ""Crusher""",285,190,,0,
-1261,,7,projectile,"Taroth Assault ""Flash""",255,170,,0,
-1264,,7,projectile,"Taroth Assault ""Horn""",320,213,,0,
-1265,,7,projectile,"Taroth Assault ""Magma""",315,210,,0,
-1266,,7,projectile,"Taroth Assault ""Rage""",300,200,,0,
-1267,,7,projectile,"Taroth Assault ""Spark""",255,170,,0,
-1268,,7,projectile,"Taroth Assault ""Spew""",270,180,,0,
-1269,,7,projectile,"Taroth Assault ""Tar""",270,180,,0,
-1270,,8,projectile,"Taroth Assault ""Blast""",285,190,,0,
-1271,,8,projectile,"Taroth Assault ""Icewater""",285,190,,0,
-1272,,8,projectile,"Taroth Assault ""Support""",270,180,,0,
-1273,,8,projectile,"Taroth Assault ""Pierce""",285,190,,0,
-1274,,8,projectile,"Kjarr Assault ""Horn""",330,220,,0,
-1275,,8,projectile,"Kjarr Assault ""Ice""",300,200,,0,
-1276,,8,projectile,"Kjarr Assault ""Magma""",315,210,,0,
-1277,,8,projectile,"Kjarr Assault ""Rage""",300,200,,0,
-1278,,8,projectile,"Kjarr Assault ""Spark""",285,190,,0,
-1279,,8,projectile,"Kjarr Assault ""Water""",285,190,,0,
-1281,,7,projectile,Devil's Madness,299,230,,0,
-1282,,8,sever,"Taroth Sword ""Fire""",660,200,,0,
+1248,,6,projectile,Gold Blast Cannon,210,140,,0,False
+1249,,6,projectile,Crusher Gold Cannon,240,160,,0,False
+1250,,6,projectile,Flash Gold Cannon,210,140,,0,False
+1251,,6,projectile,Glutton Gold Cannon,225,150,,0,False
+1252,,6,projectile,Horn Gold Cannon,270,180,,0,False
+1253,,6,projectile,Gold Icewater Cannon,225,150,,0,False
+1254,,6,projectile,Magma Gold Cannon,270,180,,0,False
+1255,,6,projectile,Rage Gold Cannon,255,170,,0,False
+1256,,6,projectile,Spark Gold Cannon,210,140,,0,False
+1257,,6,projectile,Spew Gold Cannon,225,150,,0,False
+1258,,6,projectile,Gold Support Cannon,210,140,,0,False
+1259,,6,projectile,Tar Gold Cannon,225,150,,0,False
+1260,,7,projectile,"Taroth Assault ""Crusher""",285,190,,0,False
+1261,,7,projectile,"Taroth Assault ""Flash""",255,170,,0,False
+1264,,7,projectile,"Taroth Assault ""Horn""",320,213,,0,False
+1265,,7,projectile,"Taroth Assault ""Magma""",315,210,,0,False
+1266,,7,projectile,"Taroth Assault ""Rage""",300,200,,0,False
+1267,,7,projectile,"Taroth Assault ""Spark""",255,170,,0,False
+1268,,7,projectile,"Taroth Assault ""Spew""",270,180,,0,False
+1269,,7,projectile,"Taroth Assault ""Tar""",270,180,,0,False
+1270,,8,projectile,"Taroth Assault ""Blast""",285,190,,0,False
+1271,,8,projectile,"Taroth Assault ""Icewater""",285,190,,0,False
+1272,,8,projectile,"Taroth Assault ""Support""",270,180,,0,False
+1273,,8,projectile,"Taroth Assault ""Pierce""",285,190,,0,False
+1274,,8,projectile,"Kjarr Assault ""Horn""",330,220,,0,False
+1275,,8,projectile,"Kjarr Assault ""Ice""",300,200,,0,False
+1276,,8,projectile,"Kjarr Assault ""Magma""",315,210,,0,False
+1277,,8,projectile,"Kjarr Assault ""Rage""",300,200,,0,False
+1278,,8,projectile,"Kjarr Assault ""Spark""",285,190,,0,False
+1279,,8,projectile,"Kjarr Assault ""Water""",285,190,,0,False
+1281,,7,projectile,Devil's Madness,299,230,,0,False
+1282,,8,sever,"Taroth Sword ""Fire""",660,200,,0,False
 1283,average,8,sever,"Kjarr Sword ""Decay""",677,205,fire,450,True
 1284,,7,sever,"Taroth Daggers ""Rage""",294,210,dragon,330,False
 1285,,7,sever,"Taroth Daggers ""Spark""",252,180,fire,240,False
