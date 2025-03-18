@@ -1,2 +1,4 @@
 In this project, we plan to use four different machine learning algorithms to determine which algorithm is the most accurate and efficient in uncovering which Monster Hunter: World weapons have hidden elements. The four machine learning algorithms we will be testing in this project are ANN (Artificial Neural Network), SVM (Support Vector Machine), DT (Decision Tree), and K-NN (K-Nearest Neighbors).
+
 Some background information needed before continuing is that Monster Hunter: World (MHW) is a video game in which players hunt monsters and then use the drops from those monsters to craft weapons. Many of these weapons have elemental damage, but some have their element “hidden.” Weapons with hidden elements require the player to equip a special item that unlocks the weapon’s element, allowing it to deal elemental damage.
+
