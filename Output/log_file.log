@@ -1,0 +1,16 @@
+2025-03-26 18:20:31,447 scatter plot finished
+2025-03-26 18:20:31,448 Main started
+2025-03-26 18:20:31,456 counter plot started
+2025-03-26 18:20:31,875 counter plot ended
+2025-03-26 18:20:31,875 counter plot started
+2025-03-26 18:20:32,031 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-26 18:20:32,036 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-26 18:20:32,117 counter plot ended
+2025-03-26 18:20:32,117 counter plot started
+2025-03-26 18:20:32,304 counter plot ended
+2025-03-26 18:20:32,304 counter plot started
+2025-03-26 18:20:32,559 counter plot ended
+2025-03-26 18:20:32,559 counter plot started
+2025-03-26 18:20:32,804 counter plot ended
+2025-03-26 18:20:32,804 scatter plot start
+2025-03-26 18:20:33,015 Main done
