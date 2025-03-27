@@ -74,7 +74,7 @@ class Graphs:
             print('error, make sure the column you gave only have number values.')
             log.error("scatter plot code crashed")
         #
-    log.info("scatter plot finished")
+        log.info("scatter plot finished")
     # end of scatter plot method
 
     def counter_plot(self, dataframe, column1, user_title, output ='Output/counter_plot.pdf'):
@@ -94,46 +94,3 @@ class Graphs:
             log.info("counter plot ended")
         except:
             log.error("counter code crashed")
-
-
-# Function definitions Start Here
-def main():
-    log.info('Main started')
-
-    #
-    graphs = Graphs()
-
-    #make the dataframe
-    df = pd.read_csv('Input/dict.csv')
-    #makesure mumerical data is a number
-    df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']] = \
-        df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']].apply(pd.to_numeric,
-                                                                                                     errors='coerce')
-    #runs the counter plot
-    graphs.counter_plot(df, 'elderseal', 'elder seal', 'Output/counter_plot_elderseal.pdf')
-    graphs.counter_plot(df, 'rarity', 'rarity', 'Output/counter_plot_rarity.pdf')
-    graphs.counter_plot(df, 'damageType', 'Damage Type', 'Output/counter_plot_damageType.pdf')
-    graphs.counter_plot(df, 'element_type', 'element type', 'Output/counter_plot_element_type.pdf')
-    graphs.counter_plot(df, 'element_hidden', 'element hidden', 'Output/counter_plot_element_hidden.pdf')
-
-    #runs the scatter plot
-    graphs.scatter_plot(df, 'attack_raw', 'attack_display', 'damage','Output/scatter_plot_damage.pdf')
-
-
-    log.info('Main done')
-    pass
-
-
-#
-
-# %% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Main code start here
-
-
-# %% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Main Self-run block
-if __name__ == "__main__":
-    print(f"\"{module_name}\" module begins.")
-
-    # TEST Code
-    main()
