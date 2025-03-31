@@ -69,6 +69,7 @@ class Graphs:
         try:
             dataframe.plot.scatter(column1, column2, title= user_title)
             plt.savefig(output)
+            plt.close()
         #
         except:
             print('error, make sure the column you gave only have number values.')

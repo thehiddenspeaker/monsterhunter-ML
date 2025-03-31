@@ -30,6 +30,7 @@ if __name__ == "__main__":
 # custom imports
 from config import log
 from graphs import Graphs
+from SVM import svm
 
 
 # other imports
@@ -69,8 +70,9 @@ import seaborn as sns
 def main():
     log.info('Main started')
 
-    #
+    #object creation
     graphs = Graphs()
+    svm_model = svm()
 
     # make the dataframe
     df = pd.read_csv('Input/dict.csv')
@@ -87,6 +89,9 @@ def main():
 
     # runs the scatter plot
     graphs.scatter_plot(df, 'attack_raw', 'attack_display', 'damage', 'Output/scatter_plot_damage.pdf')
+
+    #runs the SVM method
+    svm_model.svm_model(df,'attack_display', 'attack_raw')
 
     log.info('Main done')
     pass
