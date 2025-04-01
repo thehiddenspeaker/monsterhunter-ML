@@ -73,11 +73,7 @@ import seaborn as sns
 # Function definitions Start Here
 def main():
     log.info('Main started')
-    df1,df2,df3 = dataSplit("Input/dict.csv")
-    print(df1)
-    print(df2)
-    print(df3)
-    '''
+
     #object creation
     graphs = Graphs()
     svm_model = svm()
@@ -100,7 +96,7 @@ def main():
 
     #runs the SVM method
     svm_model.svm_model(df,'attack_display', 'attack_raw')
-    '''
+
     log.info('Main done')
 
     pass
