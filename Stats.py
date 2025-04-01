@@ -65,7 +65,7 @@ import seaborn as sns
 class Stats:
 
     def calculate_confusion_matrix(self, dataframe, predicted, actual = 'hidden_element',
-                                   plot = True, output = 'Output/scatter_plot.pdf', skip_to_pm = True ):
+                                   plot = True, output = 'Output/confusion_matrix.pdf', skip_to_pm = True ):
         try:
             log.info('calculate_confusion_matrix started')
 
@@ -85,7 +85,6 @@ class Stats:
             log.info('calculate_confusion_matrix started finished')
         except:
             log.error('calculate_confusion_matrix crashed')
-
 
 
 
