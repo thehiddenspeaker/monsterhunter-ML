@@ -80,7 +80,7 @@ def main():
 
     # make the dataframe
     df = pd.read_csv('Input/dict.csv')
-    # makesure mumerical data is a number
+    # makesure numerical data is a number
     df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']] = \
         df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']].apply(pd.to_numeric,
                                                                                      errors='coerce')
@@ -100,27 +100,7 @@ def main():
     log.info('Main done')
 
     pass
-
-
 #
-#dataSplit requires input file destination, with editable ratios, and returns 3 dataframes with split data
-def dataSplit(file, pRatio = (0.6,0.2,0.2)):
-    df = pd.read_csv(file)
-    dTrn = pd.DataFrame()
-    dVal = pd.DataFrame()
-    dTst = pd.DataFrame()
-
-    dTrn, temp_df = train_test_split(df, test_size=(1 - pRatio[0]))
-    dVal, dTst = train_test_split(temp_df, test_size=pRatio[1] / (pRatio[1] + pRatio[2]))
-
-
-    # Combine all classes back together
-
-    return dTrn, dVal, dTst
-    pass
-# %% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Main code start here
-
 
 # %% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Main Self-run block

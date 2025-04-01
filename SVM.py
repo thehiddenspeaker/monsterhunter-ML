@@ -101,6 +101,8 @@ class svm:
             plt.savefig(output, format='pdf')
             plt.close()
 
+
+
         except:
             log.info('Error in svm_model')
 
