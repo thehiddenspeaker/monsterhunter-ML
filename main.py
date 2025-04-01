@@ -103,6 +103,7 @@ def main():
 
 
 #
+#dataSplit requires input file destination, with editable ratios, and returns 3 dataframes with split data
 def dataSplit(file, pRatio = (0.6,0.2,0.2)):
     df = pd.read_csv(file)
     dTrn = pd.DataFrame()
