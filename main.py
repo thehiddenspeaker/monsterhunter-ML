@@ -34,8 +34,12 @@ from SVM import svm
 
 
 # other imports
+import numpy as np
 import pandas as pd
-
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
 '''
 from   matplotlib import pyplot as plt
 import mne
@@ -69,7 +73,11 @@ import seaborn as sns
 # Function definitions Start Here
 def main():
     log.info('Main started')
-
+    df1,df2,df3 = dataSplit("Input/dict.csv")
+    print(df1)
+    print(df2)
+    print(df3)
+    '''
     #object creation
     graphs = Graphs()
     svm_model = svm()
@@ -92,13 +100,27 @@ def main():
 
     #runs the SVM method
     svm_model.svm_model(df,'attack_display', 'attack_raw')
-
+    '''
     log.info('Main done')
+
     pass
 
 
 #
+def dataSplit(file, pRatio = (0.6,0.2,0.2)):
+    df = pd.read_csv(file)
+    dTrn = pd.DataFrame()
+    dVal = pd.DataFrame()
+    dTst = pd.DataFrame()
 
+    dTrn, temp_df = train_test_split(df, test_size=(1 - pRatio[0]))
+    dVal, dTst = train_test_split(temp_df, test_size=pRatio[1] / (pRatio[1] + pRatio[2]))
+
+
+    # Combine all classes back together
+
+    return dTrn, dVal, dTst
+    pass
 # %% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Main code start here
 
