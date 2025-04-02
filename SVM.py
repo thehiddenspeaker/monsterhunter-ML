@@ -1,4 +1,5 @@
 # %% MODULE BEGINS
+import Stats
 from matplotlib.pyplot import ylabel
 
 module_name = 'SVM'
@@ -71,9 +72,12 @@ class svm:
     def svm_model(self, dataframe, column1, column2, output ='Output/svm_graph.pdf'):
         log.info('svm_model started')
         try:
+
+            dTrn, dVal, dTst = Stats.train_test_split(dataframe)
+
             #x needs to be 2 values. y is the Truth values
-            x = dataframe[[column1, column2]].values
-            y = dataframe['element_hidden']
+            x = dTrn[[column1, column2]].values
+            y = dTrn['element_hidden']
 
             # Build the model
             svm_model = SVC(kernel="rbf", gamma=0.5, C=1.0, class_weight="balanced")
@@ -94,12 +98,15 @@ class svm:
 
 
             # Scatter plot
-            X,Y = dataframe[column1], dataframe[column2]
+            X,Y = dTrn[column1], dTrn[column2]
             plt.scatter(X, Y,
                         c=y,
                         s=20, edgecolors="k")
             plt.savefig(output, format='pdf')
             plt.close()
+
+            #Test the model
+            
 
 
 
