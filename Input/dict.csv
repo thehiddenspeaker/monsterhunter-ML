@@ -124,7 +124,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 123,,4,sever,Hard Bone Shotel 2,495,150,,0,False
 124,,5,sever,Hard Bone Shotel 3,528,160,sleep,210,True
 125,,6,sever,Bone Reaper 1,627,190,sleep,270,True
-126,,6,,Bone Reaper 2,627,190,sleep,270,True
+126,,6,sever,Bone Reaper 2,627,190,sleep,270,True
 127,,6,sever,Rookslayer Long Sword,561,170,blast,150,False
 128,,8,sever,Bazel Varga Rookslayer,660,200,blast,210,False
 129,,3,sever,Blazing Shotel 1,462,140,fire,150,False
