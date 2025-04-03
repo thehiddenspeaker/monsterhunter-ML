@@ -31,7 +31,7 @@ if __name__ == "__main__":
 from config import log
 from graphs import Graphs
 from SVM import svm
-
+from KNN import knn
 
 # other imports
 import numpy as np
@@ -77,9 +77,10 @@ def main():
     #object creation
     graphs = Graphs()
     svm_model = svm()
-
+    knn_model = knn()
     # make the dataframe
     df = pd.read_csv('Input/dict.csv')
+
     # makesure numerical data is a number
     df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']] = \
         df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']].apply(pd.to_numeric,
@@ -97,6 +98,8 @@ def main():
     #runs the SVM method
     svm_model.svm_model(df,'attack_display', 'attack_raw')
 
+    #runs the KNN method- CURRENTLY RETURNS ACCURACIES MUST DO LATER
+    print(knn_model.knnClassifier(df, "attack_display", "attack_raw", "element_hidden"))
     log.info('Main done')
 
     pass
