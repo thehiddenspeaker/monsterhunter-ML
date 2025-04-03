@@ -98,7 +98,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 97,high,7,sever,Nergal Reaver,627,190,dragon,90,False
 98,high,8,sever,Extermination's Edge,693,210,dragon,120,False
 99,,3,sever,Flickering Glow 1,429,130,,0,False
-100,,4,,Flickering Glow 2,462,140,,0,False
+100,,4,sever,Flickering Glow 2,462,140,,0,False
 101,,5,sever,Dazzling Flash 1,528,160,thunder,240,True
 102,,6,sever,Dazzling Flash 2,561,170,thunder,300,True
 103,,6,sever,Dazzling Flash 3,594,180,thunder,360,True
