@@ -98,7 +98,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 97,high,7,sever,Nergal Reaver,627,190,dragon,90,False
 98,high,8,sever,Extermination's Edge,693,210,dragon,120,False
 99,,3,sever,Flickering Glow 1,429,130,,0,False
-100,,4,,Flickering Glow 2,462,140,,0,False
+100,,4,sever,Flickering Glow 2,462,140,,0,False
 101,,5,sever,Dazzling Flash 1,528,160,thunder,240,True
 102,,6,sever,Dazzling Flash 2,561,170,thunder,300,True
 103,,6,sever,Dazzling Flash 3,594,180,thunder,360,True
@@ -124,7 +124,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 123,,4,sever,Hard Bone Shotel 2,495,150,,0,False
 124,,5,sever,Hard Bone Shotel 3,528,160,sleep,210,True
 125,,6,sever,Bone Reaper 1,627,190,sleep,270,True
-126,,6,,Bone Reaper 2,627,190,sleep,270,True
+126,,6,sever,Bone Reaper 2,627,190,sleep,270,True
 127,,6,sever,Rookslayer Long Sword,561,170,blast,150,False
 128,,8,sever,Bazel Varga Rookslayer,660,200,blast,210,False
 129,,3,sever,Blazing Shotel 1,462,140,fire,150,False
@@ -265,7 +265,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 264,,2,sever,Matched Slicers 3,140,100,,0,False
 265,,3,sever,Dual Slicers 1,154,110,,0,False
 266,,5,sever,Dual Slicers 2,196,140,poison,210,True
-267,,5,,Dual Slicers 3,196,140,poison,210,True
+267,,5,sever,Dual Slicers 3,196,140,poison,210,True
 268,,6,sever,Chrome Slicers 1,224,160,poison,240,True
 269,,6,sever,Chrome Slicers 2,252,180,poison,270,True
 270,high,7,sever,Nergal Gouge,280,200,dragon,90,False
@@ -325,7 +325,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 324,,4,sever,Pulsar Hatchets 3,196,140,thunder,60,False
 325,,5,sever,Kadachi Claws 1,224,160,thunder,90,False
 326,,6,sever,Kadachi Claws 2,238,170,thunder,120,False
-327,,6,,Kadachi Claws 3,252,180,thunder,150,False
+327,,6,sever,Kadachi Claws 3,252,180,thunder,150,False
 328,,4,sever,Garon Hatchets 1,182,130,,0,False
 329,,5,sever,Garon Hatchets 2,196,140,fire,180,True
 330,,6,sever,Blood-drinker Chainblade,210,150,fire,180,True
@@ -467,7 +467,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 466,,2,blunt,Bone Horn 3,504,120,,0,False
 467,,3,blunt,Hard Bone Horn 1,588,140,,0,False
 468,,5,blunt,Hard Bone Horn 2,672,160,,0,False
-469,,5,,Hard Bone Horn 3,672,160,ice,180,True
+469,,5,blunt,Hard Bone Horn 3,672,160,ice,180,True
 470,,6,blunt,Heavy Bone Horn 1,714,170,ice,180,True
 471,,6,blunt,Heavy Bone Horn 2,798,190,ice,210,True
 472,,6,blunt,Gama Horn 1,756,180,ice,240,True
@@ -552,7 +552,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 551,,8,sever,Blue Prominence,437,190,fire,270,False
 552,,1,sever,Bone Lance 1,207,90,fire,300,False
 553,,2,sever,Bone Lance 2,253,110,,0,False
-554,,2,,Bone Lance 3,253,110,,0,False
+554,,2,sever,Bone Lance 3,253,110,,0,False
 555,,3,sever,Hard Bone Lance 1,322,140,,0,False
 556,,4,sever,Hard Bone Lance 2,345,150,,0,False
 557,,5,sever,Hard Bone Lance 3,368,160,,0,False
@@ -588,7 +588,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 587,,8,sever,Bazel Myniad Rookslayer,460,200,blast,180,False
 588,,4,sever,Thunderpike,253,110,blast,210,False
 589,,8,sever,Thunderspear,368,160,thunder,420,False
-590,,8,,Thunderpiercer,368,160,thunder,540,False
+590,,8,sever,Thunderpiercer,368,160,thunder,540,False
 591,low,5,sever,Blacksteel Lance 1,230,100,thunder,540,False
 592,low,6,sever,Blacksteel Lance 2,253,110,dragon,120,False
 593,,7,sever,Icesteel Spear,391,170,dragon,150,False
@@ -671,7 +671,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 670,,5,sever,Magda Lahat,368,160,dragon,420,False
 671,,8,sever,Earthshaker Magda Lahat,460,200,blast,330,False
 672,low,5,sever,Blacksteel Gunlance 1,230,100,blast,420,False
-673,low,6,,Blacksteel Gunlance 2,253,110,dragon,120,False
+673,low,6,sever,Blacksteel Gunlance 2,253,110,dragon,120,False
 674,,7,sever,Icesteel Gunlance,391,170,dragon,150,False
 675,,8,sever,Daora's Brigia,414,180,ice,210,False
 676,low,8,sever,Xeno Hemta,391,170,ice,240,False
@@ -688,7 +688,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 687,,4,sever,Glacial Axe 1,455,130,dragon,150,False
 688,,5,sever,Glacial Axe 2,490,140,ice,210,False
 689,,7,sever,Frostreaver,560,160,ice,240,False
-690,,7,,Legia Frostreaver,560,160,ice,300,False
+690,,7,sever,Legia Frostreaver,560,160,ice,300,False
 691,,3,sever,Thunder Axe 1,420,120,ice,300,False
 692,,4,sever,Thunder Axe 2,490,140,thunder,90,False
 693,,5,sever,Lightning Chopper 1,560,160,thunder,90,False
@@ -717,7 +717,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 716,average,6,sever,Power Smasher 1,595,170,,0,False
 717,average,6,sever,Power Smasher 2,665,190,,0,False
 718,average,7,sever,Hazak Demios 1,665,190,,0,False
-719,average,7,,Hazak Demios 2,700,200,dragon,180,False
+719,average,7,sever,Hazak Demios 2,700,200,dragon,180,False
 720,,2,sever,Madness Axe 1,385,110,dragon,210,False
 721,,3,sever,Madness Axe 2,420,120,water,150,False
 722,,4,sever,Madness Axe 3,490,140,water,180,False
@@ -791,7 +791,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 790,,6,sever,Mighty Strongarm 1,612,170,blast,180,True
 791,,6,sever,Mighty Strongarm 2,684,190,blast,210,True
 792,,4,sever,Diablos Wall 1,612,170,blast,240,True
-793,,5,,Diablos Wall 2,684,195,,0,False
+793,,5,sever,Diablos Wall 2,684,195,,0,False
 794,,6,sever,Diablos Tyrannis 1,756,210,ice,90,True
 795,,7,sever,Diablos Tyrannis 2,828,230,ice,120,True
 796,,2,sever,Jagras Strongarm 1,396,110,ice,150,True
@@ -799,7 +799,7 @@ id,elderseal,rarity,damageType,name,attack_display,attack_raw,element_type,eleme
 798,,4,sever,Jagras Strongarm 3,468,130,,0,False
 799,,5,sever,Jagras Escudo 1,540,150,,0,False
 800,,6,sever,Jagras Escudo 2,648,180,sleep,120,True
-801,,6,,Jagras Escudo 3,684,195,sleep,150,True
+801,,6,sever,Jagras Escudo 3,684,195,sleep,150,True
 802,,6,sever,Gama Silt 1,576,160,sleep,180,True
 803,,7,sever,Gama Silt 2,612,170,blast,150,False
 804,,3,sever,Girros Strongarm 1,432,120,blast,180,False
