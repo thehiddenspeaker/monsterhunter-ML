@@ -31,7 +31,6 @@ if __name__ == "__main__":
 from config import log
 
 # other imports
-from copy import deepcopy as dpcpy
 from   matplotlib import pyplot as plt
 from sklearn.inspection import DecisionBoundaryDisplay
 from sklearn.svm import SVC

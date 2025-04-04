@@ -1,21 +1,21 @@
-2025-04-03 13:01:33,681 Main started
-2025-04-03 13:01:33,687 counter plot started
-2025-04-03 13:01:34,056 counter plot ended
-2025-04-03 13:01:34,057 counter plot started
-2025-04-03 13:01:34,158 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2025-04-03 13:01:34,161 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2025-04-03 13:01:34,230 counter plot ended
-2025-04-03 13:01:34,230 counter plot started
-2025-04-03 13:01:34,388 counter plot ended
-2025-04-03 13:01:34,388 counter plot started
-2025-04-03 13:01:34,561 counter plot ended
-2025-04-03 13:01:34,562 counter plot started
-2025-04-03 13:01:34,852 counter plot ended
-2025-04-03 13:01:34,852 scatter plot start
-2025-04-03 13:01:35,045 scatter plot finished
-2025-04-03 13:01:35,045 svm_model started
-2025-04-03 13:01:35,804 calculate_confusion_matrix started
-2025-04-03 13:01:35,959 calculate_performance_measures started
-2025-04-03 13:01:35,959 Performance Metrics - Sensitivity: 0.525, Specificity: 0.6227272727272727, Accuracy: 0.6076923076923076, Precision: 0.20192307692307693, F1-score: 0.2916666666666667
-2025-04-03 13:01:35,999 svm_model finished
-2025-04-03 13:01:35,999 Main done
+2025-04-03 19:20:00,119 Main started
+2025-04-03 19:20:00,125 counter plot started
+2025-04-03 19:20:00,480 counter plot ended
+2025-04-03 19:20:00,480 counter plot started
+2025-04-03 19:20:00,578 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-03 19:20:00,581 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-03 19:20:00,649 counter plot ended
+2025-04-03 19:20:00,650 counter plot started
+2025-04-03 19:20:00,804 counter plot ended
+2025-04-03 19:20:00,804 counter plot started
+2025-04-03 19:20:00,972 counter plot ended
+2025-04-03 19:20:00,973 counter plot started
+2025-04-03 19:20:01,153 counter plot ended
+2025-04-03 19:20:01,153 scatter plot start
+2025-04-03 19:20:01,407 scatter plot finished
+2025-04-03 19:20:01,407 svm_model started
+2025-04-03 19:20:02,160 calculate_confusion_matrix started
+2025-04-03 19:20:02,310 calculate_performance_measures started
+2025-04-03 19:20:02,310 Performance Metrics - Sensitivity: 0.5319148936170213, Specificity: 0.6103286384976526, Accuracy: 0.5961538461538461, Precision: 0.23148148148148148, F1-score: 0.3225806451612903
+2025-04-03 19:20:02,312 svm_model finished
+2025-04-03 19:20:02,312 dt model started

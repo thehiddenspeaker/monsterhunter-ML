@@ -31,6 +31,7 @@ if __name__ == "__main__":
 from config import log
 from graphs import Graphs
 from SVM import svm
+from DT import decision_trees
 
 
 # other imports
@@ -77,6 +78,7 @@ def main():
     #object creation
     graphs = Graphs()
     svm_model = svm()
+    dt_model = decision_trees()
 
     # make the dataframe
     df = pd.read_csv('Input/dict.csv')
@@ -96,6 +98,9 @@ def main():
 
     #runs the SVM method
     svm_model.svm_model(df,'attack_display', 'attack_raw')
+
+    #runs the DT method
+    dt_model.dt_model(df)
 
     log.info('Main done')
 
