@@ -83,7 +83,6 @@ class decision_trees():
             element_hidden_map = {True : 1, False: 0}
             dataframe['element_hidden'] = dataframe['element_hidden'].map(element_hidden_map)
 
-
             #splits the data
             dTrn, dVal, dTst = Stats.dataSplit(dataframe)
 
@@ -101,6 +100,22 @@ class decision_trees():
             tree.plot_tree(dtree, feature_names=features, class_names=True, filled=True, rounded=True)
             plt.savefig("Output/decision_tree.png", dpi=400, bbox_inches="tight")  # Save for better readability
             plt.close()
+
+            # Test the model
+            dTst = dTst.reset_index(drop=True)
+
+            temp = dtree.predict(dTst[features])
+
+            # Create a DataFrame for predictions
+            prediction = pd.DataFrame(temp, columns=['Predicted'])
+
+            # Add the actual truth values from dTst (make sure element_hidden exists in dTst)
+            prediction['Truth'] = dTst['element_hidden'].copy()
+
+            # caluclate stats
+            Stats.calculate_confusion_matrix(prediction, 'Predicted', 'Truth',
+                                             output='Output/dt_confusion_matrix.pdf',
+                                             pm_output='Output/performance_matrix/dt_PM.csv')
 
         except Exception as e:
             log.error(f'Error in dt model: {str(e)}')
