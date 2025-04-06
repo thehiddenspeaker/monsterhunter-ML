@@ -108,6 +108,7 @@ class knn:
 
         confusionmatrix = {'tn': tn, 'fp': fp, 'fn': fn, 'tp': tp}
 
+
         return performance_measures, confusionmatrix
         pass
 

@@ -1,25 +1,23 @@
-2025-04-04 11:49:56,533 Main started
-2025-04-04 11:49:56,552 counter plot started
-2025-04-04 11:49:56,946 counter plot ended
-2025-04-04 11:49:56,947 counter plot started
-2025-04-04 11:49:57,047 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2025-04-04 11:49:57,050 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2025-04-04 11:49:57,119 counter plot ended
-2025-04-04 11:49:57,119 counter plot started
-2025-04-04 11:49:57,280 counter plot ended
-2025-04-04 11:49:57,280 counter plot started
-2025-04-04 11:49:57,493 counter plot ended
-2025-04-04 11:49:57,493 counter plot started
-2025-04-04 11:49:57,804 counter plot ended
-2025-04-04 11:49:57,804 scatter plot start
-2025-04-04 11:49:58,033 scatter plot finished
-2025-04-04 11:49:58,033 svm_model started
-2025-04-04 11:49:58,840 calculate_confusion_matrix started
-2025-04-04 11:49:59,105 calculate_performance_measures started
-2025-04-04 11:49:59,105 Performance Metrics - Sensitivity: 0.53125, Specificity: 0.5833333333333334, Accuracy: 0.5769230769230769, Precision: 0.15178571428571427, F1-score: 0.2361111111111111
-2025-04-04 11:49:59,107 svm_model finished
-2025-04-04 11:50:14,017 dt model started
-2025-04-04 11:50:23,574 calculate_confusion_matrix started
-2025-04-04 11:50:23,727 calculate_performance_measures started
-2025-04-04 11:50:23,727 Performance Metrics - Sensitivity: 0.5652173913043478, Specificity: 0.9252336448598131, Accuracy: 0.8615384615384616, Precision: 0.6190476190476191, F1-score: 0.5909090909090909
-2025-04-04 11:50:23,728 Main done
+2025-04-06 15:42:10,501 Main started
+2025-04-06 15:42:10,508 counter plot started
+2025-04-06 15:42:10,946 counter plot ended
+2025-04-06 15:42:10,946 counter plot started
+2025-04-06 15:42:11,091 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-06 15:42:11,095 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-06 15:42:11,173 counter plot ended
+2025-04-06 15:42:11,173 counter plot started
+2025-04-06 15:42:11,378 counter plot ended
+2025-04-06 15:42:11,378 counter plot started
+2025-04-06 15:42:11,631 counter plot ended
+2025-04-06 15:42:11,631 counter plot started
+2025-04-06 15:42:12,151 counter plot ended
+2025-04-06 15:42:12,151 scatter plot start
+2025-04-06 15:42:12,522 scatter plot finished
+2025-04-06 15:42:12,522 svm_model started
+2025-04-06 15:42:13,548 calculate_confusion_matrix started
+2025-04-06 15:42:13,731 calculate_performance_measures started
+2025-04-06 15:42:13,731 Performance Metrics - Sensitivity: 0.6511627906976745, Specificity: 0.6820276497695853, Accuracy: 0.676923076923077, Precision: 0.28865979381443296, F1-score: 0.39999999999999997
+2025-04-06 15:42:13,734 svm_model finished
+2025-04-06 15:42:30,656 calculate_performance_measures started
+2025-04-06 15:42:30,656 calculate_performance_measures crashed: 'function' object has no attribute 'ravel'
+2025-04-06 15:42:30,657 Main done

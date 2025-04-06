@@ -104,9 +104,10 @@ def main():
 
     #runs the KNN method- CURRENTLY RETURNS ACCURACIES MUST DO LATER
     print(knn_model.knnClassifier(df, "attack_display", "attack_raw", "element_hidden"))
+
     #runs the DT method
     dt_model.dt_model(df)
-
+    
     log.info('Main done')
 
     pass
