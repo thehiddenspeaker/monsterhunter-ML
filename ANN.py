@@ -28,9 +28,13 @@ if __name__ == "__main__":
 #
 
 # custom imports
-
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
 
 # other imports
+from Stats import Stats
 from copy import deepcopy as dpcpy
 
 '''
@@ -61,23 +65,25 @@ import seaborn as sns
 
 
 # Class definitions Start Here
-
-
+class ANN():
+    def model(self, data):
+        st = Stats()
+        train, val, test = st.dataSplit(data)
+        X_train = train.iloc[:,[2,5,6,8]]
+        Y_train = train.iloc[:,-1].values
+        X_val = val.iloc[:,[2,5,6,8]]
+        X_test = test.iloc[:,[2,5,6,8]]
+        Y_val = val.iloc[:,-1].values
+        Y_test = test.iloc[:,-1].values
+        LE1 = LabelEncoder()
+        Y_train = np.array(LE1.fit_transform(Y_train))
+        print(Y_train)
+        ann = tf.keras.models.Sequential()
+        ann.add(tf.keras.layers.Dense(units=6, activation="relu"))
+        ann.add(tf.keras.layers.Dense(units=6, activation="relu"))
+        ann.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
+        ann.compile(optimizer="adam", loss="binary_crossentropy", metrics=['accuracy'])
+        ann.fit(X_train, Y_train, batch_size=32, epochs=100)
+        print(ann.predict(X_val))
+        print(Y_val)
 # Function definitions Start Here
-def main():
-    pass
-
-
-#
-
-# %% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Main code start here
-
-
-# %% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Main Self-run block
-if __name__ == "__main__":
-    print(f"\"{module_name}\" module begins.")
-
-    # TEST Code
-    main()

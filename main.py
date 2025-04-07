@@ -33,7 +33,7 @@ from graphs import Graphs
 from SVM import svm
 from KNN import knn
 from DT import decision_trees
-
+from ANN import ANN
 
 # other imports
 import numpy as np
@@ -101,6 +101,10 @@ def main():
 
     #runs the SVM method
     svm_model.svm_model(df,'attack_display', 'attack_raw')
+
+    #run ann
+    ann = ANN()
+    ann.model(df)
 
     #runs the KNN method- CURRENTLY RETURNS ACCURACIES MUST DO LATER
     print(knn_model.knnClassifier(df, "attack_display", "attack_raw", "element_hidden"))
