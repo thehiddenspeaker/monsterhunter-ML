@@ -63,7 +63,7 @@ class decision_trees():
     def dt_model(self, dataframe):
 
         try:
-
+            print("started")
             log.info('dt model started')
             #filling NaN
             dataframe = dataframe.fillna(0)
@@ -93,6 +93,7 @@ class decision_trees():
 
 
             # Train Decision Tree
+            print("training")
             dtree = DecisionTreeClassifier(class_weight=None, random_state=42)
             dtree = dtree.fit(x1, y1)
 
@@ -111,12 +112,16 @@ class decision_trees():
 
             # Add the actual truth values from dTst (make sure element_hidden exists in dTst)
             prediction['Truth'] = dTst['element_hidden'].copy()
-
+            correct_predictions = (prediction['Predicted'] == prediction['Truth']).sum()  # Count how many are correct
+            accuracy = correct_predictions / len(prediction)
+            print("accuracy:")
+            print(accuracy)
             # caluclate stats
             Stats.calculate_confusion_matrix(prediction, 'Predicted', 'Truth',
                                              output='Output/dt_confusion_matrix.pdf',
                                              pm_output='Output/performance_matrix/dt_PM.csv')
 
         except Exception as e:
+            print("failure")
             log.error(f'Error in dt model: {str(e)}')
         pass

@@ -42,6 +42,10 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt
+from sklearn.datasets import make_classification
+from sklearn.metrics import roc_curve, auc
+import openpyxl
 '''
 from   matplotlib import pyplot as plt
 import mne
@@ -76,6 +80,7 @@ import seaborn as sns
 def main():
     log.info('Main started')
 
+
     #object creation
     graphs = Graphs()
     svm_model = svm()
@@ -84,7 +89,6 @@ def main():
     knn_model = knn()
     # make the dataframe
     df = pd.read_csv('Input/dict.csv')
-
     # makesure numerical data is a number
     df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']] = \
         df[['id', 'rarity', 'attack_display', 'attack_raw', 'element_damage']].apply(pd.to_numeric,
@@ -104,16 +108,17 @@ def main():
 
     #run ann
     ann = ANN()
-    ann.model(df)
+    history = ann.model(df)
+
 
     #runs the KNN method- CURRENTLY RETURNS ACCURACIES MUST DO LATER
-    print(knn_model.knnClassifier(df, "attack_display", "attack_raw", "element_hidden"))
+    pm, cm, errors = knn_model.knnClassifier(df, "attack_display", "attack_raw", "element_hidden")
 
     #runs the DT method
     dt_model.dt_model(df)
     
     log.info('Main done')
-
+    print("done")
     pass
 #
 

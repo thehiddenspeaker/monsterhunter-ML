@@ -35,7 +35,12 @@ import matplotlib.pyplot as plt
 from sklearn import metrics
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.datasets import make_classification
+from sklearn.metrics import roc_curve, auc
 
 
 # %% USER INTERFACE              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

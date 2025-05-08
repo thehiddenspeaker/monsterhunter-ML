@@ -74,6 +74,8 @@ class knn:
         accuracies = []
         splitter = Stats()
         train, val, test = splitter.dataSplit(dataframe)
+        errors = []
+        print(len(train))
         while k < len(train):
             model = KNeighborsClassifier(n_neighbors=k)
             X_train = train[[col1,col2]]
@@ -84,6 +86,7 @@ class knn:
             val_preds = model.predict(X_val)
             tn, fp, fn, tp = confusion_matrix(Y_val, val_preds).ravel()
             accuracy = accuracy_score(Y_val, val_preds)
+            errors.append(1-accuracy)
             accuracies.append(accuracy)
             k +=1
         best_k = np.argmax(accuracies) + 1  # add 1 k starts 1 so index will be off otherwise
@@ -109,7 +112,7 @@ class knn:
         confusionmatrix = {'tn': tn, 'fp': fp, 'fn': fn, 'tp': tp}
 
 
-        return performance_measures, confusionmatrix
+        return performance_measures, confusionmatrix, errors
         pass
 
 

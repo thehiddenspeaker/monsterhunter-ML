@@ -1,4 +1,6 @@
 # %% MODULE BEGINS
+from sklearn.metrics import roc_curve
+
 module_name = 'ANN'
 
 '''
@@ -77,13 +79,12 @@ class ANN():
         Y_test = test.iloc[:,-1].values
         LE1 = LabelEncoder()
         Y_train = np.array(LE1.fit_transform(Y_train))
-        print(Y_train)
         ann = tf.keras.models.Sequential()
         ann.add(tf.keras.layers.Dense(units=6, activation="relu"))
         ann.add(tf.keras.layers.Dense(units=6, activation="relu"))
         ann.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
         ann.compile(optimizer="adam", loss="binary_crossentropy", metrics=['accuracy'])
-        ann.fit(X_train, Y_train, batch_size=32, epochs=100)
-        print(ann.predict(X_val))
-        print(Y_val)
+        history = ann.fit(X_train, Y_train, batch_size=32, epochs=50)
+        pred_value = ann.predict(X_val)
+        return(history)
 # Function definitions Start Here

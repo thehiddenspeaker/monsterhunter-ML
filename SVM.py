@@ -1,4 +1,6 @@
 # %% MODULE BEGINS
+from sklearn.metrics import accuracy_score
+
 module_name = 'SVM'
 
 '''
@@ -36,11 +38,12 @@ from sklearn.inspection import DecisionBoundaryDisplay
 from sklearn.svm import SVC
 from Stats import Stats
 import pandas as pd
+import numpy  as np
 
 
 '''
 import mne
-import numpy  as np 
+
 import os
 import pandas as pd
 import seaborn as sns
@@ -79,11 +82,26 @@ class svm:
             y = dTrn['element_hidden']  # Ensure column name is correct
 
             # Build the model
-            svm_model = SVC(kernel="rbf", gamma=0.5, C=1.0, class_weight="balanced")
+            C_values = np.logspace(-3, 3, 50)  # C values from 10^-3 to 10^3
+            error_rates = []
+            for C in C_values:
+                svm_model = SVC(kernel="rbf", gamma=0.5, C=C, class_weight="balanced")
 
-            # Train the model
-            svm_model.fit(x, y)
+                # Train the model
+                svm_model.fit(x, y)
+                y_pred = svm_model.predict(x)
 
+                # Calculate the error rate (1 - accuracy)
+                error_rate = 1 - accuracy_score(y, y_pred)
+                error_rates.append(error_rate)
+            print(error_rates)
+            plt.plot(C_values, error_rates, marker='o', linestyle='-', color='b')
+            plt.title('Error Curve for SVM with Varying C')
+            plt.xlabel('Regularization Parameter C')
+            plt.ylabel('Error Rate')
+            plt.xscale('log')  # Logarithmic scale for C to better visualize effects
+            plt.grid(True)
+            plt.show()
             # Plot Decision Boundary
             DecisionBoundaryDisplay.from_estimator(
                 svm_model,
